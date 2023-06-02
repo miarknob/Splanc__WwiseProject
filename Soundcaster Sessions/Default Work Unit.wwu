@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1DB09080-428B-49A8-89A0-1307ED6463A4}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{1DB09080-428B-49A8-89A0-1307ED6463A4}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{5DD093BD-2BBE-4C7D-B188-268988B74A82}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Water_Flow" ID="{1D3901FC-2FD4-422B-B11B-41BE881BD046}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Boat_turn" ID="{3F650695-9722-4D1F-98A1-0F274E8AFBFA}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Water_stones" ID="{26852A49-BA93-4B25-98C6-0CBEAEEC767F}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Rain" ID="{A89424BB-9F92-432E-A785-ADF73F5623BF}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Thunder" ID="{2EDC18D4-1D85-47AF-9418-BC1F44F5134E}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Thunder_atmo" ID="{6B5B5711-41B7-40B7-BD52-43EF1B9B3706}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Waterfall" ID="{E18E6827-3737-4527-9011-861DCBF8B1A8}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Water_stones" ID="{26852A49-BA93-4B25-98C6-0CBEAEEC767F}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Fish_jump" ID="{9CAD2706-B322-4B5B-91C8-E1D80BD986CB}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Wind" ID="{2DF7ED94-7DD7-48E0-9EAC-985259449B45}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Flower_hit" ID="{66E5209D-7695-44B0-A358-E3DFA696FE91}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Flower_atmo" ID="{16931586-75A2-44C7-9BCC-389877A737AB}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="fly_turn" ID="{8B79CEF9-CBC4-4342-9158-F0D9B185C3C7}"/>
+							<Value>56.4903846153846</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Thunder_atmo_level" ID="{C124AEA4-4559-43C8-9155-BA1856A88695}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Storm" ID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WaterFlow_Intencity" ID="{DCB20E36-A951-48BE-A443-E765422B9D84}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Rain_Intensity" ID="{6325C713-A498-4924-B750-58635B5FAA6F}"/>
+							<Value>0.34</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Wind_level" ID="{2806E714-8F73-49BA-8017-FAC8AAC48682}"/>
+							<Value>0.47</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="fly_speed" ID="{788FA92E-F1EB-4A01-8A67-A729A4C1787B}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="no_up" ID="{AFCD3671-142B-43A7-8714-D4A5B8D9D5DF}"/>
+						<CurrentStateRef Name="OW" ID="{F00B0C89-19B9-45EB-9AD0-B537C192B8C3}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="fly" ID="{C50016A1-BBF4-4992-95BA-B7A45D5E0E43}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Fly_Wind" ID="{A43E4CDB-E9A5-4BD6-8A5F-01BB6D1AEF51}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Fly_turn" ID="{BC7C4063-C9E6-4BE9-837D-39EDDA0AEC5D}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Sail_PowerUp" ID="{E1E0BC27-961D-433A-8502-FB5EEDFC08A1}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Crystal_Destroy" ID="{2493C9FB-4E07-41C3-A8BC-38E4FA79C005}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="slide_turn" ID="{D1604CCC-10D7-406E-8BA4-077A8E48B236}"/>
+							<Value>7</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="fly_turn" ID="{8B79CEF9-CBC4-4342-9158-F0D9B185C3C7}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Thunder_atmo_level" ID="{C124AEA4-4559-43C8-9155-BA1856A88695}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Storm" ID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WaterFlow_Intencity" ID="{DCB20E36-A951-48BE-A443-E765422B9D84}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Rain_Intensity" ID="{6325C713-A498-4924-B750-58635B5FAA6F}"/>
+							<Value>0.67</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="New_Game_Parameter" ID="{843066C4-B39A-4964-8132-DBF7D1D89CDE}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Wind_level" ID="{2806E714-8F73-49BA-8017-FAC8AAC48682}"/>
+							<Value>0.47</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="fly_speed" ID="{788FA92E-F1EB-4A01-8A67-A729A4C1787B}"/>
+							<Value>0.41</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="New_Game_Parameter_Distance_Bird_Music" ID="{CE88E7BE-70D1-4C2C-828E-3F0C68AA4493}"/>
+							<Value>10000</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="no_up" ID="{AFCD3671-142B-43A7-8714-D4A5B8D9D5DF}"/>
+						<CurrentStateRef Name="OW" ID="{F00B0C89-19B9-45EB-9AD0-B537C192B8C3}"/>
+						<CurrentStateRef Name="no_wheat" ID="{0D87447E-5D62-4818-802D-F2C5966A3C77}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

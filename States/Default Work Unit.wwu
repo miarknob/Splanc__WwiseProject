@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{88E53E9D-EE71-46C8-ADCD-7582D6AFCD00}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{88E53E9D-EE71-46C8-ADCD-7582D6AFCD00}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Under_Over_water" ID="{340CDC31-3448-4BCF-AF7A-7543EB90D882}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.3"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{68A33395-DD98-4B97-BC5C-7D383E9A2954}"/>
+						<State Name="UW" ID="{E4C890D6-3175-4BBE-B540-F7AE6607E011}"/>
+						<State Name="OW" ID="{F00B0C89-19B9-45EB-9AD0-B537C192B8C3}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Sail_PowerUp" ID="{8F24DCBA-CC5D-4A3D-89D4-22347CD4972B}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.3"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{EF0C44B6-BC18-47D8-84F3-1C97405451E8}"/>
+						<State Name="UP" ID="{5714E988-FB1A-4672-80FF-C8D14752BDB9}"/>
+						<State Name="no_up" ID="{AFCD3671-142B-43A7-8714-D4A5B8D9D5DF}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Wheat_sail" ID="{6ECC999C-FDEE-4D81-ABA1-8D207E66825B}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.1"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{9A2776D2-46E8-4A06-B1C4-EDC0F8A7C774}"/>
+						<State Name="on_wheat" ID="{2FF6F7FE-C5D4-49EF-B240-F207A913159C}"/>
+						<State Name="no_wheat" ID="{0D87447E-5D62-4818-802D-F2C5966A3C77}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

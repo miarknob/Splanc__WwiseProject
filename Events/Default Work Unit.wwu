@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Boat_turn" ID="{3F650695-9722-4D1F-98A1-0F274E8AFBFA}">
+					<ChildrenList>
+						<Action Name="" ID="{45E40BAB-4E0A-4A9F-B88D-3F99FAC80504}" ShortID="715740757">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boat_turn" ID="{24FE8852-D7E1-425A-B1E3-4BEA87FE53D6}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fish_jump" ID="{9CAD2706-B322-4B5B-91C8-E1D80BD986CB}">
+					<ChildrenList>
+						<Action Name="" ID="{DBE1DC2D-C88E-4504-9917-C3BAFF657678}" ShortID="700010914">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fish_jump" ID="{1818ED3E-88F5-404B-B3EC-638E4FD49B4A}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Flower_atmo" ID="{16931586-75A2-44C7-9BCC-389877A737AB}">
+					<ChildrenList>
+						<Action Name="" ID="{B3BDCC78-3B84-44CC-BC59-3A5028A035EB}" ShortID="451350739">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flower_atmo" ID="{89CDF5A7-2191-498E-949C-2994FBBA70DB}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Flower_hit" ID="{66E5209D-7695-44B0-A358-E3DFA696FE91}">
+					<ChildrenList>
+						<Action Name="" ID="{8F9C4FFA-F0E0-4C4E-B001-5AAF31AF42DC}" ShortID="558981236">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flower_Hit" ID="{4FE7707D-1754-4057-9D69-9A56E26CDB0F}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Rain" ID="{A89424BB-9F92-432E-A785-ADF73F5623BF}">
+					<ChildrenList>
+						<Action Name="" ID="{7C7B01A3-23B1-4C77-8F16-AC8B150D0231}" ShortID="311178634">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rain" ID="{70308DE2-742A-42AC-942E-F7FC88F61F66}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Thunder" ID="{2EDC18D4-1D85-47AF-9418-BC1F44F5134E}">
+					<ChildrenList>
+						<Action Name="" ID="{39413231-A7CC-4488-9B1B-375D909D6C0C}" ShortID="364355109">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Thunder" ID="{E4115453-DE9B-492A-AFE8-F17FAFCEF384}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Thunder_atmo" ID="{6B5B5711-41B7-40B7-BD52-43EF1B9B3706}">
+					<ChildrenList>
+						<Action Name="" ID="{D8941DC3-CB4D-4E4A-9F7D-7C51FD675C9B}" ShortID="520552610">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Thunder_atmo" ID="{1A17A435-31CD-49AA-A4B2-F07D4DE1FDB3}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Wind" ID="{2DF7ED94-7DD7-48E0-9EAC-985259449B45}">
+					<ChildrenList>
+						<Action Name="" ID="{79328BA1-C358-4F7A-861E-55DE4F0E97D9}" ShortID="213069522">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind" ID="{F95FC416-2655-4B03-8D8B-F6EF14565218}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Waterfall" ID="{E18E6827-3737-4527-9011-861DCBF8B1A8}">
+					<ChildrenList>
+						<Action Name="" ID="{5F31B9E6-9406-4809-ABDF-93316538A6EA}" ShortID="489502285">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Waterfall" ID="{72705D70-60AF-4DE5-9B47-3E39E6585F61}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Water_stones" ID="{26852A49-BA93-4B25-98C6-0CBEAEEC767F}">
+					<ChildrenList>
+						<Action Name="" ID="{21668E58-214F-45C0-95E1-5C0EE10EECB8}" ShortID="633611034">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Water-stones" ID="{C1C216EA-6D23-479D-89A2-3EBA651493E4}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Water_Flow" ID="{1D3901FC-2FD4-422B-B11B-41BE881BD046}">
+					<ChildrenList>
+						<Action Name="" ID="{69F776F3-D0B5-4559-A64D-2180C675ED27}" ShortID="467137520">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Water_Flow" ID="{48B2EEFF-1E4F-4161-AC9D-2F0E1B675109}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fly_Wind" ID="{A43E4CDB-E9A5-4BD6-8A5F-01BB6D1AEF51}">
+					<ChildrenList>
+						<Action Name="" ID="{DFB8E3CF-F893-4590-8119-DC39E6C7E4AD}" ShortID="236470508">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fly Wind" ID="{CD255E98-0B63-49C5-AA68-865B0E6EBECE}" WorkUnitID="{837BDDC6-E9BB-42D9-8CFB-BC15DFD89A36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{20502E0E-2922-4BAC-BFEA-672BAA20639F}" ShortID="94876913">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="no_up" ID="{AFCD3671-142B-43A7-8714-D4A5B8D9D5DF}" WorkUnitID="{88E53E9D-EE71-46C8-ADCD-7582D6AFCD00}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fly_turn" ID="{BC7C4063-C9E6-4BE9-837D-39EDDA0AEC5D}">
+					<ChildrenList>
+						<Action Name="" ID="{25ADB533-B51D-4B53-A261-8784E7A146B2}" ShortID="309201679">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="turn wav" ID="{25444704-2D64-41F8-B8EE-C2CCFB45D0FA}" WorkUnitID="{837BDDC6-E9BB-42D9-8CFB-BC15DFD89A36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sail_PowerUp" ID="{E1E0BC27-961D-433A-8502-FB5EEDFC08A1}">
+					<ChildrenList>
+						<Action Name="" ID="{F946402C-152B-4B3F-806C-A605B26CC042}" ShortID="330744227">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Power UP hit sail" ID="{8DBDC9DF-C2A0-4B6B-8031-62A5A5597068}" WorkUnitID="{837BDDC6-E9BB-42D9-8CFB-BC15DFD89A36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8A348793-CB47-43BA-AD2D-16CA854F7A7D}" ShortID="132683173">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UP" ID="{5714E988-FB1A-4672-80FF-C8D14752BDB9}" WorkUnitID="{88E53E9D-EE71-46C8-ADCD-7582D6AFCD00}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Crystal_Destroy" ID="{2493C9FB-4E07-41C3-A8BC-38E4FA79C005}">
+					<ChildrenList>
+						<Action Name="" ID="{54F463F5-78EC-4325-A803-7F833EF09329}" ShortID="183805148">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crystal_Destroy" ID="{65E99B0D-0E1B-41B6-B3B1-75E2705A0CF1}" WorkUnitID="{4D176D05-55B7-4373-ABFC-DF4782C8CF80}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Magic_Interaction" ID="{9E3937AC-3325-4221-8F89-801A415C90CB}">
+					<ChildrenList>
+						<Action Name="" ID="{613B6287-68B1-49A2-AB01-14EEB9EB37A3}" ShortID="804968122">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Magic_Interaction" ID="{394B999F-0B19-4326-A834-6A2645934494}" WorkUnitID="{4D176D05-55B7-4373-ABFC-DF4782C8CF80}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Splanc_Music" ID="{141FBAF5-7F77-4EB5-991E-31E03BB571B1}">
+					<ChildrenList>
+						<Action Name="" ID="{9E622715-C821-4519-B055-71CC3E34AFCD}" ShortID="257913881">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Splanc_cpr -  - Output - Stereo Out" ID="{0A59B01A-FAC8-4E10-AB2D-4319EDBEA6DC}" WorkUnitID="{340D18DD-B97B-43C4-80DE-4CD09CCD247D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Menu" ID="{795DB3EF-F7B8-44C5-A557-104D2B4405F6}" ShortID="1016395573">
+					<ChildrenList>
+						<Event Name="Play_Menu_on_button1" ID="{618F31FE-163E-4FFD-ACD2-935F7C74BA23}">
+							<ChildrenList>
+								<Action Name="" ID="{568A660C-0F0D-446E-9F15-727D36220A8F}" ShortID="718583269">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="on button1" ID="{F1114DB9-5067-4690-9CD4-B5C0ED9AD6BF}" WorkUnitID="{408BF257-F3D5-4772-855A-72CB95F61C98}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Menu_on_button2" ID="{12679A99-8AA1-45A9-8107-B9D5E88BA842}">
+							<ChildrenList>
+								<Action Name="" ID="{1A3D7929-F79B-4D90-98D5-2453E010E6F1}" ShortID="135065220">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="on button2" ID="{3CB39F5A-832C-407C-93A6-966966AF2241}" WorkUnitID="{408BF257-F3D5-4772-855A-72CB95F61C98}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Menu_press_button1" ID="{7733E7B7-B23B-4402-B573-4C6C5FCB3472}">
+							<ChildrenList>
+								<Action Name="" ID="{9839A775-A3E0-4F44-901B-B5AA2CBE33C4}" ShortID="747624071">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="press button1" ID="{5677FEBA-69C9-4BB2-BC41-FDE46CDCD94E}" WorkUnitID="{408BF257-F3D5-4772-855A-72CB95F61C98}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Menu_release_button1" ID="{EE07B3F7-C37D-44A5-B4FE-9635B6A5E298}">
+							<ChildrenList>
+								<Action Name="" ID="{AEBE5997-4A07-48D7-ABE9-F969DB5B8294}" ShortID="909582518">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="release button1" ID="{8191ACD1-E5CD-4AEB-99EA-ECBD14BF91A9}" WorkUnitID="{408BF257-F3D5-4772-855A-72CB95F61C98}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

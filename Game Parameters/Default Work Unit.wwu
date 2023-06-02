@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8E386C6B-704E-4067-8D38-6643BB78EAAB}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{8E386C6B-704E-4067-8D38-6643BB78EAAB}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Rain_Intensity" ID="{6325C713-A498-4924-B750-58635B5FAA6F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Thunder_atmo_level" ID="{C124AEA4-4559-43C8-9155-BA1856A88695}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Wind_level" ID="{2806E714-8F73-49BA-8017-FAC8AAC48682}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="WaterFlow_Intencity" ID="{DCB20E36-A951-48BE-A443-E765422B9D84}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="fly_turn" ID="{8B79CEF9-CBC4-4342-9158-F0D9B185C3C7}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="90"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="fly_speed" ID="{788FA92E-F1EB-4A01-8A67-A729A4C1787B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="New_Game_Parameter_Distance_Bird_Music" ID="{CE88E7BE-70D1-4C2C-828E-3F0C68AA4493}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="10000"/>
+						<Property Name="Max" Type="Real64" Value="10000"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="New_Game_Parameter" ID="{843066C4-B39A-4964-8132-DBF7D1D89CDE}"/>
+				<GameParameter Name="slide_turn" ID="{D1604CCC-10D7-406E-8BA4-077A8E48B236}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

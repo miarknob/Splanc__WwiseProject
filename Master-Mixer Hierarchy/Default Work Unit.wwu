@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{F8246593-F115-4569-8773-D019B62EFA2F}" WorkUnitID="{00CE3748-DE87-4487-8687-062B8608ED45}"/>
+						</Reference>
+					</ReferenceList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Under_Over_water" ID="{340CDC31-3448-4BCF-AF7A-7543EB90D882}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="OW" ID="{F00B0C89-19B9-45EB-9AD0-B537C192B8C3}"/>
+								<CustomState Name="" ID="{9C3CDAED-791B-470A-B981-3BF98ACA1FAE}" ShortID="508373218"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="UW" ID="{E4C890D6-3175-4BBE-B540-F7AE6607E011}"/>
+								<CustomState Name="" ID="{EC80120F-CDA4-4169-BE33-8284EBDA5C2F}" ShortID="312305805">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="77"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

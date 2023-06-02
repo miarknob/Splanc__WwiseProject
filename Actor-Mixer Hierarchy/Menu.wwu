@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{408BF257-F3D5-4772-855A-72CB95F61C98}" SchemaVersion="103" RootDocumentID="{E2768A84-76EF-4B74-8C85-A03DB427041D}" ParentDocumentID="{E2768A84-76EF-4B74-8C85-A03DB427041D}">
+	<AudioObjects>
+		<WorkUnit Name="Menu" ID="{408BF257-F3D5-4772-855A-72CB95F61C98}" OwnerID="{E2768A84-76EF-4B74-8C85-A03DB427041D}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="on button1" ID="{F1114DB9-5067-4690-9CD4-B5C0ED9AD6BF}" ShortID="37571866">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="on button1" ID="{61D6FC19-3B25-4B19-9736-2EA49C5CA336}">
+							<Language>SFX</Language>
+							<AudioFile>on button1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="297997689"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="on button1" ID="{61D6FC19-3B25-4B19-9736-2EA49C5CA336}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="on button2" ID="{3CB39F5A-832C-407C-93A6-966966AF2241}" ShortID="618963757">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="on button2" ID="{74C18DC3-0EFE-4E91-970F-6FEB05FFC8A1}">
+							<Language>SFX</Language>
+							<AudioFile>on button2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="84036759"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="on button2" ID="{74C18DC3-0EFE-4E91-970F-6FEB05FFC8A1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="press button1" ID="{5677FEBA-69C9-4BB2-BC41-FDE46CDCD94E}" ShortID="18452248">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="press button1" ID="{CD835DB9-3064-42B1-8D6B-6D7A2245379B}">
+							<Language>SFX</Language>
+							<AudioFile>press button1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="614354865"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="press button1" ID="{CD835DB9-3064-42B1-8D6B-6D7A2245379B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="release button1" ID="{8191ACD1-E5CD-4AEB-99EA-ECBD14BF91A9}" ShortID="44454148">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="release button1" ID="{13A82890-D0DC-4D7E-95DB-39F3F1E8AC42}">
+							<Language>SFX</Language>
+							<AudioFile>release button1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="905319288"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="release button1" ID="{13A82890-D0DC-4D7E-95DB-39F3F1E8AC42}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

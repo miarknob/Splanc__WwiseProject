@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D0208687-A172-46C6-957E-E1D3A2A72069}" SchemaVersion="103">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{D0208687-A172-46C6-957E-E1D3A2A72069}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Wwise_Flanger" ID="{5C82DFC1-9A51-4355-9C5E-A719AF2F3730}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="15.4"/>
+						<Property Name="DryLevel" Type="Real32" Value="0.65"/>
+						<Property Name="ModDepth" Type="Real32" Value="75.3"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="New_Wwise_Parametric_EQ" ID="{5C3DE66A-1F40-415D-B47F-1BA2B370B8CA}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand1" Type="Real32" Value="7962"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="4086"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="648"/>
+						<Property Name="GainBand1" Type="Real32" Value="2"/>
+						<Property Name="GainBand2" Type="Real32" Value="1.5"/>
+						<Property Name="OnOffBand1" Type="bool" Value="False"/>
+						<Property Name="OnOffBand2" Type="bool" Value="False"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

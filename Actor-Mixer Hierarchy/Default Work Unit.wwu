@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E2768A84-76EF-4B74-8C85-A03DB427041D}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{E2768A84-76EF-4B74-8C85-A03DB427041D}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Level_1" ID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}" PersistMode="Reference"/>
+				<WorkUnit Name="Character" ID="{4138E72D-B4D7-49EF-9916-F8FA97DA36E9}" PersistMode="Reference"/>
+				<WorkUnit Name="FlySail" ID="{837BDDC6-E9BB-42D9-8CFB-BC15DFD89A36}" PersistMode="Reference"/>
+				<WorkUnit Name="Level_2" ID="{4D176D05-55B7-4373-ABFC-DF4782C8CF80}" PersistMode="Reference"/>
+				<WorkUnit Name="Menu" ID="{408BF257-F3D5-4772-855A-72CB95F61C98}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

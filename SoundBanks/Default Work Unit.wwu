@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{16E3E745-76C7-47EC-93A3-E48C179A9112}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{16E3E745-76C7-47EC-93A3-E48C179A9112}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SplancSB2" ID="{CB86A4BB-EF38-41C3-9F54-7B175C00A2BE}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
