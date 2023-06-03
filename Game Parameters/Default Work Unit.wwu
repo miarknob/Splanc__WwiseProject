@@ -54,6 +54,7 @@
 						<Property Name="Min" Type="Real64" Value="-180"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Music_Volume" ID="{678426DD-3B1C-4ABF-85F5-4E1CC3171D21}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

@@ -9,6 +9,31 @@
 						<Property Name="Tempo" Type="Real64" Value="85"/>
 						<Property Name="Volume" Type="Real64">
 							<RTPCList>
+								<RTPC Name="" ID="{0A422F2A-7446-4176-899D-1EE19D2F1EF6}" ShortID="995141930">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Music_Volume" ID="{678426DD-3B1C-4ABF-85F5-4E1CC3171D21}" WorkUnitID="{8E386C6B-704E-4067-8D38-6643BB78EAAB}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{44133934-25FB-4E96-B5DE-755470E36981}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
 								<RTPC Name="" ID="{81EA22A1-E154-4435-9450-10E1BC0370B2}" ShortID="541809966">
 									<ReferenceList>
 										<Reference Name="ControlInput">
@@ -106,7 +131,7 @@
 																				</PropertyList>
 																				<PointList>
 																					<Point>
-																						<XPos>-0</XPos>
+																						<XPos>0</XPos>
 																						<YPos>0</YPos>
 																						<Flags>5</Flags>
 																					</Point>
@@ -125,7 +150,7 @@
 																				</PropertyList>
 																				<PointList>
 																					<Point>
-																						<XPos>-0</XPos>
+																						<XPos>0</XPos>
 																						<YPos>0</YPos>
 																						<Flags>5</Flags>
 																					</Point>
@@ -144,7 +169,7 @@
 																				</PropertyList>
 																				<PointList>
 																					<Point>
-																						<XPos>-0</XPos>
+																						<XPos>0</XPos>
 																						<YPos>0</YPos>
 																						<Flags>5</Flags>
 																					</Point>
