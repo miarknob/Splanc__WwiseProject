@@ -104,13 +104,28 @@
 												</PropertyList>
 												<PointList>
 													<Point>
-														<XPos>0</XPos>
-														<YPos>62</YPos>
+														<XPos>-180</XPos>
+														<YPos>55</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>90</XPos>
-														<YPos>41</YPos>
+														<XPos>-95.92814</XPos>
+														<YPos>40</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>61</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>92.91018</XPos>
+														<YPos>40</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>180</XPos>
+														<YPos>55</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -166,13 +181,38 @@
 												</PropertyList>
 												<PointList>
 													<Point>
-														<XPos>0</XPos>
-														<YPos>-0.42379</YPos>
+														<XPos>-180</XPos>
+														<YPos>-0</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
+														<XPos>-90</XPos>
+														<YPos>1.8</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>-50.65868</XPos>
+														<YPos>1.5</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-0.45</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>50.65868</XPos>
+														<YPos>1.5</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
 														<XPos>90</XPos>
-														<YPos>1.58363</YPos>
+														<YPos>1.8</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>180</XPos>
+														<YPos>-0</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -206,17 +246,17 @@
 														</PropertyList>
 														<PointList>
 															<Point>
-																<XPos>0</XPos>
+																<XPos>-180</XPos>
 																<YPos>-505.8548</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>50.2405</XPos>
+																<XPos>20.962</XPos>
 																<YPos>1332.08433</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>90</XPos>
+																<XPos>180</XPos>
 																<YPos>1540.04683</YPos>
 																<Flags>37</Flags>
 															</Point>
@@ -410,18 +450,38 @@
 												</PropertyList>
 												<PointList>
 													<Point>
-														<XPos>0</XPos>
-														<YPos>-0</YPos>
+														<XPos>-180</XPos>
+														<YPos>0</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>39.92854</XPos>
-														<YPos>1.78972</YPos>
+														<XPos>-95.49701</XPos>
+														<YPos>1.02305</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>90</XPos>
-														<YPos>1.71642</YPos>
+														<XPos>-49.60321</XPos>
+														<YPos>1.07845</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>-0</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>47.64072</XPos>
+														<YPos>1.02305</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>99.37725</XPos>
+														<YPos>1.02305</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>180</XPos>
+														<YPos>0</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -749,18 +809,38 @@
 												</PropertyList>
 												<PointList>
 													<Point>
-														<XPos>0</XPos>
-														<YPos>9</YPos>
+														<XPos>-180</XPos>
+														<YPos>6</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>40.04376</XPos>
-														<YPos>-10</YPos>
+														<XPos>-95</XPos>
+														<YPos>-19</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>90</XPos>
+														<XPos>-50</XPos>
+														<YPos>-9</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>9</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>50.65868</XPos>
+														<YPos>-9</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>95.06587</XPos>
 														<YPos>-19</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>180</XPos>
+														<YPos>6</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -946,13 +1026,28 @@
 												</PropertyList>
 												<PointList>
 													<Point>
-														<XPos>0</XPos>
-														<YPos>17</YPos>
+														<XPos>-180</XPos>
+														<YPos>4</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
+														<XPos>-90</XPos>
+														<YPos>-7</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>-0</XPos>
+														<YPos>7</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
 														<XPos>90</XPos>
-														<YPos>-36</YPos>
+														<YPos>-7</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>180</XPos>
+														<YPos>4</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -1058,18 +1153,48 @@
 												</PropertyList>
 												<PointList>
 													<Point>
-														<XPos>0</XPos>
-														<YPos>-0</YPos>
+														<XPos>-180</XPos>
+														<YPos>0.88838</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>40.35971</XPos>
-														<YPos>4.3377</YPos>
+														<XPos>-100.23952</XPos>
+														<YPos>5.32536</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>90</XPos>
-														<YPos>6.20219</YPos>
+														<XPos>-70.49102</XPos>
+														<YPos>5.10545</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>-48.07186</XPos>
+														<YPos>3.89149</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>-0.43114</XPos>
+														<YPos>-0.62515</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>45.05389</XPos>
+														<YPos>3.89149</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>69.62874</XPos>
+														<YPos>5.55098</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>99.80838</XPos>
+														<YPos>5.07221</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>180</XPos>
+														<YPos>1.26314</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -2047,6 +2172,155 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="sub impact 0_03" ID="{8379608E-E076-4486-B94E-30EC2A2216F5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</BlendContainer>
+				<BlendContainer Name="Fly on wheat" ID="{411D15FA-D8B8-4D2F-BC2B-325AACA1C391}" ShortID="1627614">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{41B979D4-AB1A-4D05-8663-46AB747710E8}" ShortID="370482202">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="fly_turn" ID="{8B79CEF9-CBC4-4342-9158-F0D9B185C3C7}" WorkUnitID="{8E386C6B-704E-4067-8D38-6643BB78EAAB}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{360354BB-C535-46E7-AF65-CA5FF5C194B1}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-180</XPos>
+												<YPos>0.88838</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>-100.23952</XPos>
+												<YPos>5.32536</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-70.49102</XPos>
+												<YPos>5.10545</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-48.07186</XPos>
+												<YPos>3.89149</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-0.43114</XPos>
+												<YPos>-0.62515</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>45.05389</XPos>
+												<YPos>3.89149</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>69.62874</XPos>
+												<YPos>5.55098</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>99.80838</XPos>
+												<YPos>5.07221</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>180</XPos>
+												<YPos>1.26314</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="wheat_sail1" ID="{43E4FF62-E990-4C52-A644-94EC765A8B03}" ShortID="205401127">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wheat_sail1" ID="{7F136839-17DB-4C40-B656-A9EBC50993A6}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="749.596"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.075572170487106"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.687706751432665"/>
+										<Property Name="LoopEnd" Type="Real64" Value="4.14135494269341"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.113358255730659"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>wheat_sail1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="982374875"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="wheat_sail1" ID="{7F136839-17DB-4C40-B656-A9EBC50993A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="wheat_sail2" ID="{0B350D9A-B275-4E65-B9CF-1A752A2987FF}" ShortID="591189229">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wheat_sail2" ID="{BCDAD1DB-668A-4343-B5DB-3ED774DF0435}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="2282.016"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.273739941499522"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.83195191618911"/>
+										<Property Name="LoopEnd" Type="Real64" Value="13.1184602734002"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.189512267191977"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>wheat_sail2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="141455183"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="wheat_sail2" ID="{BCDAD1DB-668A-4343-B5DB-3ED774DF0435}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

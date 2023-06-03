@@ -144,11 +144,23 @@
 							<ObjectRef Name="Play_Crystal_Destroy" ID="{2493C9FB-4E07-41C3-A8BC-38E4FA79C005}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
 							<Position X="2" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Magic_Interaction_short" ID="{E8DA0FD5-0A6B-4522-A278-7DEB2FB284E1}" WorkUnitID="{4D176D05-55B7-4373-ABFC-DF4782C8CF80}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Fly_on_wheat" ID="{864E0323-C639-442A-8706-95B6E42ACEFA}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Magic_Interaction" ID="{9E3937AC-3325-4221-8F89-801A415C90CB}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="3" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="slide_turn" ID="{D1604CCC-10D7-406E-8BA4-077A8E48B236}"/>
-							<Value>7</Value>
+							<Value>-15.8502994011976</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
@@ -156,7 +168,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="fly_turn" ID="{8B79CEF9-CBC4-4342-9158-F0D9B185C3C7}"/>
-							<Value>0</Value>
+							<Value>9.216</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Thunder_atmo_level" ID="{C124AEA4-4559-43C8-9155-BA1856A88695}"/>
@@ -204,7 +216,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="fly_speed" ID="{788FA92E-F1EB-4A01-8A67-A729A4C1787B}"/>
-							<Value>0.41</Value>
+							<Value>1</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="New_Game_Parameter_Distance_Bird_Music" ID="{CE88E7BE-70D1-4C2C-828E-3F0C68AA4493}"/>

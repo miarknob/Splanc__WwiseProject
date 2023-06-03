@@ -28,6 +28,9 @@
 				<Event Name="Play_Flower_atmo" ID="{16931586-75A2-44C7-9BCC-389877A737AB}">
 					<ChildrenList>
 						<Action Name="" ID="{B3BDCC78-3B84-44CC-BC59-3A5028A035EB}" ShortID="451350739">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Flower_atmo" ID="{89CDF5A7-2191-498E-949C-2994FBBA70DB}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
@@ -127,6 +130,9 @@
 				<Event Name="Play_Fly_Wind" ID="{A43E4CDB-E9A5-4BD6-8A5F-01BB6D1AEF51}">
 					<ChildrenList>
 						<Action Name="" ID="{DFB8E3CF-F893-4590-8119-DC39E6C7E4AD}" ShortID="236470508">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="4.2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Fly Wind" ID="{CD255E98-0B63-49C5-AA68-865B0E6EBECE}" WorkUnitID="{837BDDC6-E9BB-42D9-8CFB-BC15DFD89A36}"/>
@@ -191,6 +197,17 @@
 				</Event>
 				<Event Name="Play_Magic_Interaction" ID="{9E3937AC-3325-4221-8F89-801A415C90CB}">
 					<ChildrenList>
+						<Action Name="" ID="{5D3967E8-7A92-4A59-98DB-4036511A188F}" ShortID="48517879">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Magic_Interaction" ID="{394B999F-0B19-4326-A834-6A2645934494}" WorkUnitID="{4D176D05-55B7-4373-ABFC-DF4782C8CF80}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{613B6287-68B1-49A2-AB01-14EEB9EB37A3}" ShortID="804968122">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -259,6 +276,53 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Steps" ID="{7822593D-D19B-4559-8110-32C67DBB940F}">
+					<ChildrenList>
+						<Action Name="" ID="{A23D4322-D34A-4A61-8B3B-6D2AD04D305D}" ShortID="639903069">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Steps" ID="{58E6241C-53A8-43C7-AA18-E8AB6A4A5013}" WorkUnitID="{4138E72D-B4D7-49EF-9916-F8FA97DA36E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fly_on_wheat" ID="{864E0323-C639-442A-8706-95B6E42ACEFA}">
+					<ChildrenList>
+						<Action Name="" ID="{EB44553E-ECB6-4E7F-A265-41B51BB710D4}" ShortID="717922241">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fly on wheat" ID="{411D15FA-D8B8-4D2F-BC2B-325AACA1C391}" WorkUnitID="{837BDDC6-E9BB-42D9-8CFB-BC15DFD89A36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{71F55C04-80A7-4172-B055-DBFDC7A4432C}" ShortID="774564271">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fly on wheat" ID="{411D15FA-D8B8-4D2F-BC2B-325AACA1C391}" WorkUnitID="{837BDDC6-E9BB-42D9-8CFB-BC15DFD89A36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Magic_Interaction_short" ID="{1179B6F3-FA3F-461B-B40C-9898B0C20088}">
+					<ChildrenList>
+						<Action Name="" ID="{947B0C92-1675-4489-BE96-8596DB384F73}" ShortID="38625288">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Magic_Interaction_short" ID="{E8DA0FD5-0A6B-4522-A278-7DEB2FB284E1}" WorkUnitID="{4D176D05-55B7-4373-ABFC-DF4782C8CF80}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

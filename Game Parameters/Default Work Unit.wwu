@@ -30,7 +30,8 @@
 				<GameParameter Name="fly_turn" ID="{8B79CEF9-CBC4-4342-9158-F0D9B185C3C7}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="Max" Type="Real64" Value="90"/>
+						<Property Name="Max" Type="Real64" Value="180"/>
+						<Property Name="Min" Type="Real64" Value="-180"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="fly_speed" ID="{788FA92E-F1EB-4A01-8A67-A729A4C1787B}">
@@ -46,7 +47,13 @@
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="New_Game_Parameter" ID="{843066C4-B39A-4964-8132-DBF7D1D89CDE}"/>
-				<GameParameter Name="slide_turn" ID="{D1604CCC-10D7-406E-8BA4-077A8E48B236}"/>
+				<GameParameter Name="slide_turn" ID="{D1604CCC-10D7-406E-8BA4-077A8E48B236}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="180"/>
+						<Property Name="Min" Type="Real64" Value="-180"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
