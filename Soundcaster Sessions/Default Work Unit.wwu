@@ -220,7 +220,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Music_Volume" ID="{678426DD-3B1C-4ABF-85F5-4E1CC3171D21}"/>
-							<Value>88.8888888888889</Value>
+							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="New_Game_Parameter_Distance_Bird_Music" ID="{CE88E7BE-70D1-4C2C-828E-3F0C68AA4493}"/>

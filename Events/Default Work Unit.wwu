@@ -217,17 +217,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Splanc_Music" ID="{141FBAF5-7F77-4EB5-991E-31E03BB571B1}">
-					<ChildrenList>
-						<Action Name="" ID="{9E622715-C821-4519-B055-71CC3E34AFCD}" ShortID="257913881">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Splanc_cpr -  - Output - Stereo Out" ID="{0A59B01A-FAC8-4E10-AB2D-4319EDBEA6DC}" WorkUnitID="{340D18DD-B97B-43C4-80DE-4CD09CCD247D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="Menu" ID="{795DB3EF-F7B8-44C5-A557-104D2B4405F6}" ShortID="1016395573">
 					<ChildrenList>
 						<Event Name="Play_Menu_on_button1" ID="{618F31FE-163E-4FFD-ACD2-935F7C74BA23}">
@@ -318,6 +307,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Magic_Interaction_short" ID="{E8DA0FD5-0A6B-4522-A278-7DEB2FB284E1}" WorkUnitID="{4D176D05-55B7-4373-ABFC-DF4782C8CF80}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Splanc_music" ID="{AFE6F3B6-D7A9-4067-A899-41C5456D3EE7}">
+					<ChildrenList>
+						<Action Name="" ID="{E11F480D-B065-4BB4-A180-494AF0F639ED}" ShortID="849269124">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="music" ID="{C2FF2AEB-A5ED-4AFD-BBC5-8B8D80C3D3ED}" WorkUnitID="{340D18DD-B97B-43C4-80DE-4CD09CCD247D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
