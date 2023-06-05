@@ -52,7 +52,7 @@
 				</Attenuation>
 				<Attenuation Name="flower Attenuation" ID="{060A444C-A3A4-4EB3-B30F-18EB1E98143E}" ShortID="429877520">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="4000"/>
+						<Property Name="RadiusMax" Type="Real64" Value="550"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -69,7 +69,7 @@
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>4000</XPos>
+											<XPos>550</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -96,22 +96,22 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>1293.8144</XPos>
+											<XPos>177.89948</XPos>
 											<YPos>27</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>1788.6608</XPos>
+											<XPos>245.94086</XPos>
 											<YPos>47</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>2979.3808</XPos>
+											<XPos>409.66486</XPos>
 											<YPos>53</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>4000</XPos>
+											<XPos>550</XPos>
 											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -309,6 +309,59 @@
 										</Point>
 										<Point>
 											<XPos>9500</XPos>
+											<YPos>-200</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
+						</VolumeDryUsage>
+						<VolumeWetGameUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetGameUsage>
+						<VolumeWetUserUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetUserUsage>
+						<LowPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</LowPassFilterUsage>
+						<HighPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</HighPassFilterUsage>
+						<SpreadUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</SpreadUsage>
+						<FocusUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</FocusUsage>
+					</CurveUsageInfoList>
+				</Attenuation>
+				<Attenuation Name="water stones att" ID="{5AFB6EFC-C880-462E-BE8E-7AED6AF9FCFD}" ShortID="786538625">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="6000"/>
+					</PropertyList>
+					<CurveUsageInfoList>
+						<VolumeDryUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="VolumeDry" ID="{56C32937-7F70-4B13-8ADA-EEB6C9130933}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="3"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+											<SegmentShape>Exp3</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>2077.82128</XPos>
+											<YPos>-6.25258</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Log3</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>6000</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>

@@ -27,9 +27,20 @@
 				</Event>
 				<Event Name="Play_Flower_atmo" ID="{16931586-75A2-44C7-9BCC-389877A737AB}">
 					<ChildrenList>
-						<Action Name="" ID="{B3BDCC78-3B84-44CC-BC59-3A5028A035EB}" ShortID="451350739">
+						<Action Name="" ID="{999DAF25-5B6D-4B49-B228-A1961D1B4BA6}" ShortID="830282965">
 							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flower_atmo" ID="{89CDF5A7-2191-498E-949C-2994FBBA70DB}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3B7BCB47-314F-4CAF-8F10-6E69F23E21B0}" ShortID="1039259015">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -44,7 +55,7 @@
 						<Action Name="" ID="{8F9C4FFA-F0E0-4C4E-B001-5AAF31AF42DC}" ShortID="558981236">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Flower_Hit" ID="{4FE7707D-1754-4057-9D69-9A56E26CDB0F}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+									<ObjectRef Name="Flower_Hit" ID="{7AFBF7A5-A7B5-4DD0-BDD9-3E062FBEB548}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -53,6 +64,21 @@
 				<Event Name="Play_Rain" ID="{A89424BB-9F92-432E-A785-ADF73F5623BF}">
 					<ChildrenList>
 						<Action Name="" ID="{7C7B01A3-23B1-4C77-8F16-AC8B150D0231}" ShortID="311178634">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rain" ID="{70308DE2-742A-42AC-942E-F7FC88F61F66}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4EC6309E-F5AC-44D0-BDF5-EBD33F76A617}" ShortID="568879143">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="0"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Rain" ID="{70308DE2-742A-42AC-942E-F7FC88F61F66}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
@@ -64,9 +90,95 @@
 				<Event Name="Play_Thunder" ID="{2EDC18D4-1D85-47AF-9418-BC1F44F5134E}">
 					<ChildrenList>
 						<Action Name="" ID="{39413231-A7CC-4488-9B1B-375D909D6C0C}" ShortID="364355109">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Thunder" ID="{E4115453-DE9B-492A-AFE8-F17FAFCEF384}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{95AB7F1D-745F-498D-854E-2E471033F3AB}" ShortID="984512887">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Thunder" ID="{E4115453-DE9B-492A-AFE8-F17FAFCEF384}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FB18DF4C-C55A-4978-9101-0F4FAD25DF04}" ShortID="363891504">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+								<Property Name="FadeInCurve" Type="int16" Value="8"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="0.6">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{8E18A59A-A421-4713-80EE-6F3F5AE5D4A9}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.4"/>
+													<Property Name="Min" Type="Real64" Value="-0.1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Thunder_atmo_level" ID="{C124AEA4-4559-43C8-9155-BA1856A88695}" WorkUnitID="{8E386C6B-704E-4067-8D38-6643BB78EAAB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4DDFD050-6E8F-4C70-B414-54E79D2679C6}" ShortID="105955794">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="Delay" Type="Real64" Value="15">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F18B303B-55DA-4A9D-A5F7-723022DACFD7}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="4"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="FadeInCurve" Type="int16" Value="0"/>
+								<Property Name="FadeTime" Type="Real64" Value="5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{8449E732-2230-44DD-BF84-E497B73606FB}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Thunder_atmo_level" ID="{C124AEA4-4559-43C8-9155-BA1856A88695}" WorkUnitID="{8E386C6B-704E-4067-8D38-6643BB78EAAB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -75,6 +187,22 @@
 				<Event Name="Play_Thunder_atmo" ID="{6B5B5711-41B7-40B7-BD52-43EF1B9B3706}">
 					<ChildrenList>
 						<Action Name="" ID="{D8941DC3-CB4D-4E4A-9F7D-7C51FD675C9B}" ShortID="520552610">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Thunder_atmo" ID="{1A17A435-31CD-49AA-A4B2-F07D4DE1FDB3}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7875CCB1-3EF9-44A0-A4C8-35134917D26A}" ShortID="257216899">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Thunder_atmo" ID="{1A17A435-31CD-49AA-A4B2-F07D4DE1FDB3}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
@@ -118,7 +246,21 @@
 				</Event>
 				<Event Name="Play_Water_Flow" ID="{1D3901FC-2FD4-422B-B11B-41BE881BD046}">
 					<ChildrenList>
+						<Action Name="" ID="{710D7971-004A-40D3-9FB7-0A3127D15442}" ShortID="452045574">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Water_Flow" ID="{48B2EEFF-1E4F-4161-AC9D-2F0E1B675109}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{69F776F3-D0B5-4559-A64D-2180C675ED27}" ShortID="467137520">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Water_Flow" ID="{48B2EEFF-1E4F-4161-AC9D-2F0E1B675109}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
@@ -174,7 +316,7 @@
 						<Action Name="" ID="{8A348793-CB47-43BA-AD2D-16CA854F7A7D}" ShortID="132683173">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>
-								<Property Name="Delay" Type="Real64" Value="0.5"/>
+								<Property Name="Delay" Type="Real64" Value="0.2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -318,6 +460,115 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="music" ID="{C2FF2AEB-A5ED-4AFD-BBC5-8B8D80C3D3ED}" WorkUnitID="{340D18DD-B97B-43C4-80DE-4CD09CCD247D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Flowe_atmo_2" ID="{7793A4EE-B9AC-42EC-AD69-AA1F7EF2F68C}">
+					<ChildrenList>
+						<Action Name="" ID="{35EC1968-6785-494B-849C-49E196A0A52A}" ShortID="143659025">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.2"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flowe_atmo 2" ID="{446D88AD-9E96-4A97-AD54-5C84CF9367F6}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F26843CC-F337-447A-8154-8F4B210C090A}" ShortID="135039772">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flowe_atmo 2" ID="{446D88AD-9E96-4A97-AD54-5C84CF9367F6}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Flowe_atmo_3" ID="{07E8ADF6-9634-4959-AA89-15544877FBFF}">
+					<ChildrenList>
+						<Action Name="" ID="{0B5B607B-5501-4058-BF81-0F9AB0A915E6}" ShortID="598212826">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flowe_atmo 3" ID="{03ABCA79-00A9-43EA-92EC-81A43FA42AA4}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E9010D5D-A57B-4461-97AA-5E07B34CC4A2}" ShortID="27028062">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flowe_atmo 3" ID="{03ABCA79-00A9-43EA-92EC-81A43FA42AA4}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Flower_hit_2" ID="{93ED7FB9-4861-4F37-B298-6F396FC027D5}">
+					<ChildrenList>
+						<Action Name="" ID="{C2760A8B-32AF-4D4B-8828-1B897CE6998A}" ShortID="61119299">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flower hit 2" ID="{DF1F7AAB-3273-41AC-84C9-2924F857E7F5}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Waterfall_Small" ID="{39CD29A7-4424-4B9F-929A-01F613AB1FF3}">
+					<ChildrenList>
+						<Action Name="" ID="{F90C7CD2-F982-41AA-A1F0-40C1868D3882}" ShortID="209874466">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Waterfall_Small" ID="{2BAD7812-A777-47F7-980E-9B215BE0A34C}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fly_Wind_2" ID="{8341FF73-5FEA-499D-959E-5D2ABF626B52}">
+					<ChildrenList>
+						<Action Name="" ID="{355ECE59-42E8-450E-B390-38BFF37F7DAD}" ShortID="158408809">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fly Wind_2" ID="{BCA52A36-5939-45C4-BF69-C89AB8CDAC43}" WorkUnitID="{837BDDC6-E9BB-42D9-8CFB-BC15DFD89A36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sail_PorerUp_2" ID="{043C5DEB-1EE2-4A61-B33E-161C4EC89E43}">
+					<ChildrenList>
+						<Action Name="" ID="{229962A1-C356-4DB2-B498-D0D29AA4C6D6}" ShortID="312326749">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Power UP hit sail" ID="{8DBDC9DF-C2A0-4B6B-8031-62A5A5597068}" WorkUnitID="{837BDDC6-E9BB-42D9-8CFB-BC15DFD89A36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F87BBE8E-A32E-442F-A877-467473FB2152}" ShortID="316343833">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fly power up" ID="{0893E8D7-C5E9-411B-AE29-3297C317466A}" WorkUnitID="{837BDDC6-E9BB-42D9-8CFB-BC15DFD89A36}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

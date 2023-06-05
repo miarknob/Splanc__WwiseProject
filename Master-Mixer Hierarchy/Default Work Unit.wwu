@@ -9,6 +9,64 @@
 							<ObjectRef Name="System" ID="{F8246593-F115-4569-8773-D019B62EFA2F}" WorkUnitID="{00CE3748-DE87-4487-8687-062B8608ED45}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SideChain" ID="{8441ACA0-68CC-483C-9C3E-6653812AC37D}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Meter (Custom)" ID="{5A684BFE-6929-403A-86D7-8AD753F018D0}" ShortID="274532063" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+											<PropertyList>
+												<Property Name="ReleaseTime" Type="Real32" Value="0"/>
+											</PropertyList>
+											<PluginData>
+	<GameParameter Name="Side_Chain_1" ID="{E51E4A4D-B7D3-4942-8158-5169C5B46EF7}"/>
+</PluginData>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="SideChained" ID="{77BDE0EF-25C7-4D6A-9C35-B83F7BBC619A}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{E6FE6B08-A41E-4ECE-8056-BA4AB39EC7DF}" ShortID="602057850">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Side_Chain_1" ID="{E51E4A4D-B7D3-4942-8158-5169C5B46EF7}" WorkUnitID="{8E386C6B-704E-4067-8D38-6643BB78EAAB}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{6A680FA5-BC23-4613-8566-8A26E6A8DB0B}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-40.11329</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>SCurve</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-8.62073</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>
 							<StateGroupInfo>

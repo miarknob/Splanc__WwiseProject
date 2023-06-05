@@ -9,7 +9,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+							<ObjectRef Name="SideChained" ID="{77BDE0EF-25C7-4D6A-9C35-B83F7BBC619A}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

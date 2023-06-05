@@ -50,11 +50,27 @@
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Flower_hit_2" ID="{93ED7FB9-4861-4F37-B298-6F396FC027D5}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Flower_atmo" ID="{16931586-75A2-44C7-9BCC-389877A737AB}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
 							<Position X="4" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_Flowe_atmo_2" ID="{7793A4EE-B9AC-42EC-AD69-AA1F7EF2F68C}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Flowe_atmo_3" ID="{07E8ADF6-9634-4959-AA89-15544877FBFF}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="4" Y="2"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="slide_turn" ID="{D1604CCC-10D7-406E-8BA4-077A8E48B236}"/>
+							<Value>-15.8502994011976</Value>
+						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
 							<Value>6</Value>
@@ -65,7 +81,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Thunder_atmo_level" ID="{C124AEA4-4559-43C8-9155-BA1856A88695}"/>
-							<Value>1</Value>
+							<Value>0.17</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
@@ -97,15 +113,27 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Rain_Intensity" ID="{6325C713-A498-4924-B750-58635B5FAA6F}"/>
-							<Value>0.34</Value>
+							<Value>0.28</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="New_Game_Parameter" ID="{843066C4-B39A-4964-8132-DBF7D1D89CDE}"/>
+							<Value>50</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Wind_level" ID="{2806E714-8F73-49BA-8017-FAC8AAC48682}"/>
-							<Value>0.47</Value>
+							<Value>0.375476190476191</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="fly_speed" ID="{788FA92E-F1EB-4A01-8A67-A729A4C1787B}"/>
 							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_Volume" ID="{678426DD-3B1C-4ABF-85F5-4E1CC3171D21}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="New_Game_Parameter_Distance_Bird_Music" ID="{CE88E7BE-70D1-4C2C-828E-3F0C68AA4493}"/>
+							<Value>10000</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
@@ -129,16 +157,16 @@
 				<SoundcasterSession Name="fly" ID="{C50016A1-BBF4-4992-95BA-B7A45D5E0E43}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_Fly_Wind" ID="{A43E4CDB-E9A5-4BD6-8A5F-01BB6D1AEF51}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_Fly_turn" ID="{BC7C4063-C9E6-4BE9-837D-39EDDA0AEC5D}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Sail_PowerUp" ID="{E1E0BC27-961D-433A-8502-FB5EEDFC08A1}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Sail_PorerUp_2" ID="{043C5DEB-1EE2-4A61-B33E-161C4EC89E43}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Crystal_Destroy" ID="{2493C9FB-4E07-41C3-A8BC-38E4FA79C005}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
@@ -156,6 +184,10 @@
 							<ObjectRef Name="Play_Magic_Interaction" ID="{9E3937AC-3325-4221-8F89-801A415C90CB}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
 							<Position X="3" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_Fly_Wind" ID="{A43E4CDB-E9A5-4BD6-8A5F-01BB6D1AEF51}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="4" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -168,7 +200,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="fly_turn" ID="{8B79CEF9-CBC4-4342-9158-F0D9B185C3C7}"/>
-							<Value>9.216</Value>
+							<Value>-18.857</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Thunder_atmo_level" ID="{C124AEA4-4559-43C8-9155-BA1856A88695}"/>
@@ -207,6 +239,10 @@
 							<Value>0.67</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Side_Chain_1" ID="{E51E4A4D-B7D3-4942-8158-5169C5B46EF7}"/>
+							<Value>-9.42857142857143</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="New_Game_Parameter" ID="{843066C4-B39A-4964-8132-DBF7D1D89CDE}"/>
 							<Value>0</Value>
 						</RTPCValue>
@@ -216,7 +252,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="fly_speed" ID="{788FA92E-F1EB-4A01-8A67-A729A4C1787B}"/>
-							<Value>1</Value>
+							<Value>1200</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Music_Volume" ID="{678426DD-3B1C-4ABF-85F5-4E1CC3171D21}"/>

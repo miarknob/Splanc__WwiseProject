@@ -37,7 +37,7 @@
 				<GameParameter Name="fly_speed" ID="{788FA92E-F1EB-4A01-8A67-A729A4C1787B}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1200"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="New_Game_Parameter_Distance_Bird_Music" ID="{CE88E7BE-70D1-4C2C-828E-3F0C68AA4493}">
@@ -55,6 +55,13 @@
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Music_Volume" ID="{678426DD-3B1C-4ABF-85F5-4E1CC3171D21}"/>
+				<GameParameter Name="Side_Chain_1" ID="{E51E4A4D-B7D3-4942-8158-5169C5B46EF7}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

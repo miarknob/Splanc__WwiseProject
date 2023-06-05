@@ -40,9 +40,10 @@
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>0.44577</XPos>
+														<XPos>0.3041</XPos>
 														<YPos>-200</YPos>
 														<Flags>0</Flags>
+														<SegmentShape>Exp3</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>0.6615</XPos>
@@ -131,7 +132,7 @@
 													</Point>
 													<Point>
 														<XPos>1</XPos>
-														<YPos>-100</YPos>
+														<YPos>-41</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -161,33 +162,29 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>0.11322</XPos>
+														<XPos>0.26691</XPos>
 														<YPos>-200</YPos>
 														<Flags>0</Flags>
+														<SegmentShape>Exp3</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>0.19905</XPos>
-														<YPos>-200</YPos>
+														<XPos>0.54577</XPos>
+														<YPos>-2.60687</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>0.44577</XPos>
-														<YPos>-8.89131</YPos>
+														<XPos>0.61855</XPos>
+														<YPos>-1.07819</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>0.57807</XPos>
-														<YPos>-0.21058</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>0.852205</XPos>
-														<YPos>3.01669</YPos>
+														<XPos>0.8534</XPos>
+														<YPos>0.13183</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
 														<XPos>1</XPos>
-														<YPos>2.9434</YPos>
+														<YPos>0.07919</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -228,6 +225,9 @@
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{104A6438-BD6B-44DF-AD38-08E9F360A3D2}" ShortID="896989748">
 											<ReferenceList>
@@ -246,18 +246,14 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>0.10131</XPos>
+														<XPos>0.03821</XPos>
 														<YPos>-200</YPos>
 														<Flags>0</Flags>
+														<SegmentShape>Exp3</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>0.19428</XPos>
-														<YPos>-7.55237</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>0.29797</XPos>
-														<YPos>-3.39276</YPos>
+														<XPos>0.38864</XPos>
+														<YPos>-3.93555</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
@@ -331,14 +327,15 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>0.56972</XPos>
+														<XPos>0.51853</XPos>
 														<YPos>-200</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>0.70203</XPos>
+														<XPos>0.52108</XPos>
 														<YPos>-200</YPos>
 														<Flags>0</Flags>
+														<SegmentShape>Exp3</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>0.85577</XPos>
@@ -430,7 +427,7 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-11</Value>
+										<Value>-19</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -456,16 +453,23 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>0</YPos>
+														<YPos>-200</YPos>
 														<Flags>5</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0.0381</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
 													</Point>
 													<Point>
 														<XPos>0.1179976</XPos>
 														<YPos>0</YPos>
 														<Flags>0</Flags>
+														<SegmentShape>SCurve</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>0.24195</XPos>
+														<XPos>0.31695</XPos>
 														<YPos>-200</YPos>
 														<Flags>0</Flags>
 													</Point>
@@ -825,7 +829,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="NewWF Attenuation" ID="{D9C978A0-CD15-4B2E-A021-499994C75962}" WorkUnitID="{6830CD02-B604-4D88-B005-F77F34232820}"/>
+									<ObjectRef Name="water stones att" ID="{5AFB6EFC-C880-462E-BE8E-7AED6AF9FCFD}" WorkUnitID="{6830CD02-B604-4D88-B005-F77F34232820}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
@@ -913,9 +917,33 @@
 							<ObjectLists/>
 						</BlendContainer>
 						<BlendContainer Name="Water_Flow" ID="{48B2EEFF-1E4F-4161-AC9D-2F0E1B675109}" ShortID="867597879">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>16</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Parametric EQ (Custom)" ID="{A5F5FDEA-93C3-48A3-B6E9-512AAE1411E8}" ShortID="15890279" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<PropertyList>
+												<Property Name="FilterTypeBand2" Type="int32" Value="5"/>
+												<Property Name="FrequencyBand2" Type="Real32" Value="9397"/>
+												<Property Name="GainBand2" Type="Real32" Value="-24"/>
+												<Property Name="QFactorBand2" Type="Real32" Value="4.2"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
@@ -1088,15 +1116,11 @@
 																<XPos>0.07738</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
+																<SegmentShape>Exp3</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>0.23094</XPos>
-																<YPos>-16.79794</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>0.43452</XPos>
-																<YPos>-8.01128</YPos>
+																<XPos>0.36547</XPos>
+																<YPos>-7.40851</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
@@ -1169,6 +1193,9 @@
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{BB59EAE2-F309-4195-AD05-16E7403B5911}" ShortID="839527023">
 													<ReferenceList>
@@ -1190,30 +1217,11 @@
 																<XPos>0.06428</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>0.12858</XPos>
-																<YPos>-200</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>0.27143</XPos>
-																<YPos>-8.83913</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>0.52738</XPos>
-																<YPos>-2.25796</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>0.7881</XPos>
-																<YPos>0</YPos>
-																<Flags>0</Flags>
+																<SegmentShape>Exp3</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>1</XPos>
-																<YPos>0.76529</YPos>
+																<YPos>-1.95316</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -1272,9 +1280,10 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>0.525</XPos>
+																<XPos>0.41667</XPos>
 																<YPos>-100</YPos>
 																<Flags>0</Flags>
+																<SegmentShape>Exp3</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>0.77738</XPos>
@@ -1313,25 +1322,16 @@
 																<XPos>0.11547</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
+																<SegmentShape>Exp3</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>0.19525</XPos>
-																<YPos>-200</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>0.61548</XPos>
-																<YPos>-2.81855</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>0.86786</XPos>
-																<YPos>1.11991</YPos>
+																<XPos>0.999</XPos>
+																<YPos>-2.99191</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
 																<XPos>1</XPos>
-																<YPos>1.3564</YPos>
+																<YPos>-1.3215</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -1400,9 +1400,10 @@
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>0.5512</XPos>
+																<XPos>0.50001</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
+																<SegmentShape>Exp3</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>0.80357</XPos>
@@ -1546,12 +1547,12 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>10</YPos>
+																<YPos>22</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
 																<XPos>0.0631</XPos>
-																<YPos>-3</YPos>
+																<YPos>11</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
@@ -1577,6 +1578,34 @@
 															<Point>
 																<XPos>1</XPos>
 																<YPos>-100</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<RTPCList>
+												<RTPC Name="" ID="{280A6BB5-9CFE-4FD2-9408-76D70697766E}" ShortID="297013820">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="WaterFlow_Intencity" ID="{DCB20E36-A951-48BE-A443-E765422B9D84}" WorkUnitID="{8E386C6B-704E-4067-8D38-6643BB78EAAB}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{057CDB93-704D-43B4-B4C9-68B2CED0A987}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>100</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -1613,9 +1642,10 @@
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>0.43214</XPos>
-																<YPos>-2.12329</YPos>
+																<XPos>0.36666</XPos>
+																<YPos>-0.9401</YPos>
 																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>0.61787</XPos>
@@ -1787,8 +1817,22 @@
 						<Sound Name="Flower_atmo" ID="{89CDF5A7-2191-498E-949C-2994FBBA70DB}" ShortID="673391178">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="60"/>
+								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -1805,8 +1849,8 @@
 								<AudioFileSource Name="flowera atmo" ID="{F7D718C4-5027-4AA0-9E44-BBA1C4E0C3B3}">
 									<PropertyList>
 										<Property Name="CrossfadeDuration" Type="Real64" Value="4232.42014388489"/>
-										<Property Name="FadeInDuration" Type="Real64" Value="0.8"/>
-										<Property Name="FadeOutDuration" Type="Real64" Value="1.6"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.402065476190476"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.848345899470902"/>
 										<Property Name="LoopBegin" Type="Real64" Value="2.24847320143885"/>
 										<Property Name="LoopEnd" Type="Real64" Value="28.1735624925275"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -1839,38 +1883,355 @@
 								<ActiveSource Name="flowera atmo" ID="{F7D718C4-5027-4AA0-9E44-BBA1C4E0C3B3}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<RandomSequenceContainer Name="Flower_Hit" ID="{4FE7707D-1754-4057-9D69-9A56E26CDB0F}" ShortID="77307264">
+						<RandomSequenceContainer Name="Flowe_atmo 2" ID="{446D88AD-9E96-4A97-AD54-5C84CF9367F6}" ShortID="140898850">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{D88522BE-99B8-487F-BBEC-66D67CC07FB9}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="51"/>
-													<Property Name="Min" Type="Real64" Value="-51"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{2656A454-58BC-412D-9F5D-42F1B9DD2942}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Min" Type="Real64" Value="-2"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Flower_atmo_01" ID="{AD4F688D-C2EA-4603-BF1B-A8A036BFAB01}" ShortID="918284157">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="60"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="flower Attenuation" ID="{060A444C-A3A4-4EB3-B30F-18EB1E98143E}" WorkUnitID="{6830CD02-B604-4D88-B005-F77F34232820}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="flowera atmo" ID="{13A19CA7-E135-4C4F-AEAF-804CA559F004}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="4232.42014388489"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.8"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.648"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.58524899508964"/>
+												<Property Name="LoopEnd" Type="Real64" Value="29.2789361697762"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.353719576719577"/>
+												<Property Name="TrimEnd" Type="Real64" Value="30.5525284391534"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>flowera atmo.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="948749543"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{A59AC639-4A1F-47E9-967A-16A7FBB8B228}">
+											<ChildrenList>
+												<Path2D Name="flowera atmo_Path" ID="{54607C91-B470-4669-B8CF-E35144A63B92}">
+													<PointList>
+														<Point>
+															<XPos>45.17766</XPos>
+															<YPos>-0.28249</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="flowera atmo" ID="{13A19CA7-E135-4C4F-AEAF-804CA559F004}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Flower_atmo_02" ID="{77647FD8-A46C-4FD9-B20D-D0702E14DE4B}" ShortID="723747099">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="flowera atmo" ID="{37E69EB0-3FBD-4083-945C-8A34D59D5094}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="4232.42014388489"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.8950462962963"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.41659788359788"/>
+												<Property Name="LoopBegin" Type="Real64" Value="6.36695238095238"/>
+												<Property Name="LoopEnd" Type="Real64" Value="29.0869460850367"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="4.99628902116402"/>
+												<Property Name="TrimEnd" Type="Real64" Value="30.5525284391534"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>flowera atmo.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="858347196"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="flowera atmo" ID="{37E69EB0-3FBD-4083-945C-8A34D59D5094}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Flower_atmo_03" ID="{1114CD62-EBFB-4B06-B2AA-9ACB7B32507C}" ShortID="273179179">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="flowera atmo" ID="{993F1E17-0DD3-4E6A-8936-DEF83542B8AC}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2015.853"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.81694378306878"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.417"/>
+												<Property Name="LoopBegin" Type="Real64" Value="15.6078763227513"/>
+												<Property Name="LoopEnd" Type="Real64" Value="29.5355846560847"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="14.5909325396825"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>flowera atmo.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="500774494"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="flowera atmo" ID="{993F1E17-0DD3-4E6A-8936-DEF83542B8AC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Flower_atmo_04" ID="{07319CA8-E149-42C7-8E07-E6E2BCF0FBEE}" ShortID="188147125">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="flowera atmo" ID="{557C93AB-A1E6-4DE6-B6C8-EBB0B4F8D44F}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2015.853"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.81694378306878"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.417"/>
+												<Property Name="LoopBegin" Type="Real64" Value="20.2946607142857"/>
+												<Property Name="LoopEnd" Type="Real64" Value="29.4913697089947"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="18.6587076719577"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>flowera atmo.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="515608105"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="flowera atmo" ID="{557C93AB-A1E6-4DE6-B6C8-EBB0B4F8D44F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Flower_atmo" ID="{4EDCEED1-8AE3-4027-B4C4-3EECDAF75DBE}" ShortID="334602600">
+									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>36</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="55"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="flower Attenuation" ID="{060A444C-A3A4-4EB3-B30F-18EB1E98143E}" WorkUnitID="{6830CD02-B604-4D88-B005-F77F34232820}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="flowera atmo" ID="{6FAC73D3-F923-49B5-A9D3-784CBFB11822}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="4232.42014388489"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.402065476190476"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.848345899470902"/>
+												<Property Name="LoopBegin" Type="Real64" Value="2.24847320143885"/>
+												<Property Name="LoopEnd" Type="Real64" Value="28.1735624925275"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>flowera atmo.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="740738083"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{8D610954-84F2-4A53-818F-713634730DEB}">
+											<ChildrenList>
+												<Path2D Name="flowera atmo_Path" ID="{DD4C9003-F867-45CE-9F21-78023DBA4269}">
+													<PointList>
+														<Point>
+															<XPos>45.17766</XPos>
+															<YPos>-0.28249</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="flowera atmo" ID="{6FAC73D3-F923-49B5-A9D3-784CBFB11822}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Flowe_atmo 3" ID="{03ABCA79-00A9-43EA-92EC-81A43FA42AA4}" ShortID="777790340">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="60"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="flower hit Attenuation" ID="{90FA211C-C465-4C89-9489-266DA313EA50}" WorkUnitID="{6830CD02-B604-4D88-B005-F77F34232820}"/>
+									<ObjectRef Name="flower Attenuation" ID="{060A444C-A3A4-4EB3-B30F-18EB1E98143E}" WorkUnitID="{6830CD02-B604-4D88-B005-F77F34232820}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
@@ -1880,7 +2241,88 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="flowerA2" ID="{82D0A190-8E6C-4B96-A07C-18ED98C6F0FE}" ShortID="354121349">
+								<Sound Name="Flower_atmo_01" ID="{626D5084-9897-4E3F-BFB7-8B469304C9E3}" ShortID="2518794">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="60"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="flower Attenuation" ID="{060A444C-A3A4-4EB3-B30F-18EB1E98143E}" WorkUnitID="{6830CD02-B604-4D88-B005-F77F34232820}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="flowera atmo" ID="{0AE3C06C-A3C0-47BA-9555-EAEE2950C207}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="4232.42014388489"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.8"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.648"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.58524899508964"/>
+												<Property Name="LoopEnd" Type="Real64" Value="29.2789361697762"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.353719576719577"/>
+												<Property Name="TrimEnd" Type="Real64" Value="30.5525284391534"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>flowera atmo.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="948749543"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{9BAA3F23-2BB3-4DCA-A347-1B1759D01F20}">
+											<ChildrenList>
+												<Path2D Name="flowera atmo_Path" ID="{D2D18762-DD8A-48D7-BEE5-50A410D95F5B}">
+													<PointList>
+														<Point>
+															<XPos>45.17766</XPos>
+															<YPos>-0.28249</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="flowera atmo" ID="{0AE3C06C-A3C0-47BA-9555-EAEE2950C207}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Flower_atmo_02" ID="{B6ED8583-C159-424E-B82C-3D24A53D2F5B}" ShortID="50353147">
+									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
@@ -1890,7 +2332,612 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="flowerA2" ID="{8AC46F10-35BF-44DD-80A0-46904C682D9F}">
+										<AudioFileSource Name="flowera atmo" ID="{AB62775D-BD84-4814-84E5-93FCA4256E75}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="4232.42014388489"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.8950462962963"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.41659788359788"/>
+												<Property Name="LoopBegin" Type="Real64" Value="6.36695238095238"/>
+												<Property Name="LoopEnd" Type="Real64" Value="29.0869460850367"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="4.99628902116402"/>
+												<Property Name="TrimEnd" Type="Real64" Value="30.5525284391534"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>flowera atmo.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="858347196"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="flowera atmo" ID="{AB62775D-BD84-4814-84E5-93FCA4256E75}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Flower_atmo_03" ID="{5B7FCD07-ED68-4E1E-A0C1-01FE167DB02F}" ShortID="594048636">
+									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="flowera atmo" ID="{665C68BB-4E35-4532-920A-062857553B37}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2015.853"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.81694378306878"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.417"/>
+												<Property Name="LoopBegin" Type="Real64" Value="15.6078763227513"/>
+												<Property Name="LoopEnd" Type="Real64" Value="29.5355846560847"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="14.5909325396825"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>flowera atmo.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="500774494"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="flowera atmo" ID="{665C68BB-4E35-4532-920A-062857553B37}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Flower_atmo_04" ID="{71B1FD4F-285B-4ED6-9E72-3A5B4200C8C9}" ShortID="537467558">
+									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="flowera atmo" ID="{521A55DF-10B5-4221-A865-2CD0A418033F}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2015.853"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.81694378306878"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.417"/>
+												<Property Name="LoopBegin" Type="Real64" Value="20.2946607142857"/>
+												<Property Name="LoopEnd" Type="Real64" Value="29.4913697089947"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="18.6587076719577"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>flowera atmo.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="515608105"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="flowera atmo" ID="{521A55DF-10B5-4221-A865-2CD0A418033F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Flower_atmo" ID="{870B9A7B-2679-4BEE-89E0-E91A24C0E1A0}" ShortID="389627343">
+									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>36</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="55"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="flower Attenuation" ID="{060A444C-A3A4-4EB3-B30F-18EB1E98143E}" WorkUnitID="{6830CD02-B604-4D88-B005-F77F34232820}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="flowera atmo" ID="{44866C34-21F0-4D3B-92D3-295C5FF51416}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="4232.42014388489"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.402065476190476"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.848345899470902"/>
+												<Property Name="LoopBegin" Type="Real64" Value="2.24847320143885"/>
+												<Property Name="LoopEnd" Type="Real64" Value="28.1735624925275"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>flowera atmo.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="740738083"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{733E3354-AFC2-4CC6-B6B3-D432E7491924}">
+											<ChildrenList>
+												<Path2D Name="flowera atmo_Path" ID="{A36015D3-4CA6-485E-A5B0-80D8936B0B88}">
+													<PointList>
+														<Point>
+															<XPos>45.17766</XPos>
+															<YPos>-0.28249</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="flowera atmo" ID="{44866C34-21F0-4D3B-92D3-295C5FF51416}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<BlendContainer Name="Flower hit 2" ID="{DF1F7AAB-3273-41AC-84C9-2924F857E7F5}" ShortID="327295493">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Flower_Hit 2" ID="{4FE7707D-1754-4057-9D69-9A56E26CDB0F}" ShortID="77307264">
+									<PropertyList>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D88522BE-99B8-487F-BBEC-66D67CC07FB9}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="51"/>
+															<Property Name="Min" Type="Real64" Value="-51"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2656A454-58BC-412D-9F5D-42F1B9DD2942}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="flowerA2" ID="{82D0A190-8E6C-4B96-A07C-18ED98C6F0FE}" ShortID="354121349">
+											<PropertyList>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="flowerA2" ID="{8AC46F10-35BF-44DD-80A0-46904C682D9F}">
+													<PropertyList>
+														<Property Name="FadeInShape" Type="int16" Value="9"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="2.52465909090909"/>
+														<Property Name="FadeOutShape" Type="int16" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.94543560606061"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>flowerA2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="514878345"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="flowerA2" ID="{8AC46F10-35BF-44DD-80A0-46904C682D9F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="flowerB2" ID="{D693CB0A-86FB-4C54-A2D3-690035668F1D}" ShortID="662737681">
+											<PropertyList>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="flowerB2" ID="{E978C1D9-1001-4256-8AFA-F6A5D7FDB313}">
+													<PropertyList>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="2.42679653679654"/>
+														<Property Name="FadeOutShape" Type="int16" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.84231361231361"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>flowerB2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="945301664"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="flowerB2" ID="{E978C1D9-1001-4256-8AFA-F6A5D7FDB313}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="flowerC#2" ID="{D3B4E8BF-F693-4D3A-9C4C-E0D339269156}" ShortID="104596091">
+											<PropertyList>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="flowerC#2" ID="{963192E6-7580-43D9-B77F-C6B6C109D470}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="3.19780182780182"/>
+														<Property Name="FadeOutShape" Type="int16" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.80017845117845"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>flowerC#2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="108003828"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="flowerC#2" ID="{963192E6-7580-43D9-B77F-C6B6C109D470}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="flowerD2" ID="{99632065-1B8B-4433-9790-FA894D8674BA}" ShortID="227618836">
+											<PropertyList>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="flowerD2" ID="{B7863C30-B21D-4EAE-A2E2-9B48EC256BCC}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="2.50057196969697"/>
+														<Property Name="FadeOutShape" Type="int16" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.92355429292929"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>flowerD2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="249369235"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="flowerD2" ID="{B7863C30-B21D-4EAE-A2E2-9B48EC256BCC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="flowerE2" ID="{3A8E836D-3658-42AE-B2CD-0A397C3C0BDF}" ShortID="517267313">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="flowerE2" ID="{D78FEF93-50DA-4FC7-BF4A-15BAF9F542B4}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="3.50045021645022"/>
+														<Property Name="FadeOutShape" Type="int16" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.97721404521404"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>flowerE2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="164978351"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="flowerE2" ID="{D78FEF93-50DA-4FC7-BF4A-15BAF9F542B4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="flowerF#2" ID="{B25FCE60-4D2F-4070-8901-5563451A6DA5}" ShortID="824425544">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="flowerF#2" ID="{C31756A8-C134-436F-9E75-925AB3C94C9B}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="2.78827708633959"/>
+														<Property Name="FadeOutShape" Type="int16" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.32381256012506"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>flowerF#2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="421885144"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="flowerF#2" ID="{C31756A8-C134-436F-9E75-925AB3C94C9B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="flowerG#2" ID="{C53908CA-5BEB-4CD5-9565-E9C6B8AA296D}" ShortID="245142497">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="flowerG#2" ID="{054963EB-D6BA-445D-A121-76DE035EFC98}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.84041567460317"/>
+														<Property Name="FadeOutShape" Type="int16" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.37276731601732"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>flowerG#2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="75216545"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="flowerG#2" ID="{054963EB-D6BA-445D-A121-76DE035EFC98}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+						</BlendContainer>
+						<RandomSequenceContainer Name="Flower_Hit" ID="{7AFBF7A5-A7B5-4DD0-BDD9-3E062FBEB548}" ShortID="390772782">
+							<PropertyList>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{61C36ABF-A74B-418D-AF78-1EB20E7AE7E6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="51"/>
+													<Property Name="Min" Type="Real64" Value="-51"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E14BBDD9-4A14-467B-BAB2-C927CA04EB62}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="flowerA2" ID="{3A358E92-CF58-4CA3-BBEC-64CC1005D519}" ShortID="839119064">
+									<PropertyList>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="flowerA2" ID="{55C5D497-6250-4B1A-9149-8CB2079E2E1A}">
+											<PropertyList>
+												<Property Name="FadeInShape" Type="int16" Value="9"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.52465909090909"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.94543560606061"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>flowerA2.wav</AudioFile>
 											<MediaIDList>
@@ -1900,10 +2947,18 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="flowerA2" ID="{8AC46F10-35BF-44DD-80A0-46904C682D9F}" Platform="Linked"/>
+										<ActiveSource Name="flowerA2" ID="{55C5D497-6250-4B1A-9149-8CB2079E2E1A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="flowerB2" ID="{D693CB0A-86FB-4C54-A2D3-690035668F1D}" ShortID="662737681">
+								<Sound Name="flowerB2" ID="{07DF6F25-40E2-4529-8446-DCDEC852E785}" ShortID="107999842">
+									<PropertyList>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
@@ -1913,7 +2968,14 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="flowerB2" ID="{E978C1D9-1001-4256-8AFA-F6A5D7FDB313}">
+										<AudioFileSource Name="flowerB2" ID="{CECD0062-06D8-4CFC-A402-45CDFED0B603}">
+											<PropertyList>
+												<Property Name="FadeInShape" Type="int16" Value="0"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.42679653679654"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.84231361231361"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>flowerB2.wav</AudioFile>
 											<MediaIDList>
@@ -1923,10 +2985,18 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="flowerB2" ID="{E978C1D9-1001-4256-8AFA-F6A5D7FDB313}" Platform="Linked"/>
+										<ActiveSource Name="flowerB2" ID="{CECD0062-06D8-4CFC-A402-45CDFED0B603}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="flowerC#2" ID="{D3B4E8BF-F693-4D3A-9C4C-E0D339269156}" ShortID="104596091">
+								<Sound Name="flowerC#2" ID="{561E6FF9-7A0C-4EA5-B1ED-8B279CCA4D96}" ShortID="1008415208">
+									<PropertyList>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
@@ -1936,7 +3006,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="flowerC#2" ID="{963192E6-7580-43D9-B77F-C6B6C109D470}">
+										<AudioFileSource Name="flowerC#2" ID="{B917404A-560E-427D-9584-5A80555C36C4}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="3.19780182780182"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.80017845117845"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>flowerC#2.wav</AudioFile>
 											<MediaIDList>
@@ -1946,10 +3022,18 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="flowerC#2" ID="{963192E6-7580-43D9-B77F-C6B6C109D470}" Platform="Linked"/>
+										<ActiveSource Name="flowerC#2" ID="{B917404A-560E-427D-9584-5A80555C36C4}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="flowerD2" ID="{99632065-1B8B-4433-9790-FA894D8674BA}" ShortID="227618836">
+								<Sound Name="flowerD2" ID="{844B8163-FA19-4D81-B14E-1CB1FAFCD731}" ShortID="493513313">
+									<PropertyList>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
@@ -1959,7 +3043,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="flowerD2" ID="{B7863C30-B21D-4EAE-A2E2-9B48EC256BCC}">
+										<AudioFileSource Name="flowerD2" ID="{36A1598A-E60F-4903-85A3-CEB35B1143D9}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.50057196969697"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.92355429292929"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>flowerD2.wav</AudioFile>
 											<MediaIDList>
@@ -1969,10 +3059,17 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="flowerD2" ID="{B7863C30-B21D-4EAE-A2E2-9B48EC256BCC}" Platform="Linked"/>
+										<ActiveSource Name="flowerD2" ID="{36A1598A-E60F-4903-85A3-CEB35B1143D9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="flowerE2" ID="{3A8E836D-3658-42AE-B2CD-0A397C3C0BDF}" ShortID="517267313">
+								<Sound Name="flowerE2" ID="{CADF78E5-22BD-4F9D-914D-963FD86548DB}" ShortID="378744018">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
@@ -1982,7 +3079,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="flowerE2" ID="{D78FEF93-50DA-4FC7-BF4A-15BAF9F542B4}">
+										<AudioFileSource Name="flowerE2" ID="{9596F3A2-8AE4-4C86-A346-18ACD9C787FB}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="3.50045021645022"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.97721404521404"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>flowerE2.wav</AudioFile>
 											<MediaIDList>
@@ -1992,10 +3095,17 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="flowerE2" ID="{D78FEF93-50DA-4FC7-BF4A-15BAF9F542B4}" Platform="Linked"/>
+										<ActiveSource Name="flowerE2" ID="{9596F3A2-8AE4-4C86-A346-18ACD9C787FB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="flowerF#2" ID="{B25FCE60-4D2F-4070-8901-5563451A6DA5}" ShortID="824425544">
+								<Sound Name="flowerF#2" ID="{1B756E64-4636-41A7-AD55-21708FBE86D6}" ShortID="824664712">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
@@ -2005,7 +3115,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="flowerF#2" ID="{C31756A8-C134-436F-9E75-925AB3C94C9B}">
+										<AudioFileSource Name="flowerF#2" ID="{A63A712B-656E-42F7-A797-1B4A276CA1BB}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.78827708633959"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.32381256012506"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>flowerF#2.wav</AudioFile>
 											<MediaIDList>
@@ -2015,10 +3131,17 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="flowerF#2" ID="{C31756A8-C134-436F-9E75-925AB3C94C9B}" Platform="Linked"/>
+										<ActiveSource Name="flowerF#2" ID="{A63A712B-656E-42F7-A797-1B4A276CA1BB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="flowerG#2" ID="{C53908CA-5BEB-4CD5-9565-E9C6B8AA296D}" ShortID="245142497">
+								<Sound Name="flowerG#2" ID="{8CFC3481-3C24-47F6-B912-AE29A0AC41D3}" ShortID="1011377603">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
@@ -2028,7 +3151,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="flowerG#2" ID="{054963EB-D6BA-445D-A121-76DE035EFC98}">
+										<AudioFileSource Name="flowerG#2" ID="{956911BF-C980-49DB-B52B-43999BC79ECA}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.84041567460317"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.37276731601732"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>flowerG#2.wav</AudioFile>
 											<MediaIDList>
@@ -2038,7 +3167,7 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="flowerG#2" ID="{054963EB-D6BA-445D-A121-76DE035EFC98}" Platform="Linked"/>
+										<ActiveSource Name="flowerG#2" ID="{956911BF-C980-49DB-B52B-43999BC79ECA}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -2063,7 +3192,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-11</Value>
 							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
@@ -2328,6 +3457,9 @@
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
 									<Modifier Name="" ID="{6DFAADD5-9923-4493-8CAA-B5EE5504BB3D}"/>
@@ -2742,6 +3874,13 @@
 							<PropertyList>
 								<Property Name="3DPosition" Type="int16" Value="1"/>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -2756,14 +3895,21 @@
 									</ModifierList>
 								</Property>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="52"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{6CF97FCA-1652-4A9C-A903-2E2012628CDE}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="1"/>
-													<Property Name="Min" Type="Real64" Value="-3"/>
+													<Property Name="Min" Type="Real64" Value="-4"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -2780,6 +3926,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Thunder1L" ID="{26F49D3E-DE4E-4DEE-895A-02E711B69E04}" ShortID="246070991">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
@@ -2790,6 +3943,15 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Thunder1L" ID="{4F7493DB-78FB-4110-A193-1320B9541996}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.110493476430976"/>
+												<Property Name="FadeInShape" Type="int16" Value="4"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="3.99354993386243"/>
+												<Property Name="FadeOutShape" Type="int16" Value="2"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.457758688071188"/>
+												<Property Name="TrimEnd" Type="Real64" Value="10.1969693963444"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Thunder1L.wav</AudioFile>
 											<MediaIDList>
@@ -2813,6 +3975,14 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Thunder2" ID="{2B8ECF33-C89C-4E0B-9BB0-D68BC047F46D}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.247361562049062"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="3.90831268037518"/>
+												<Property Name="FadeOutShape" Type="int16" Value="1"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.280343103655604"/>
+												<Property Name="TrimEnd" Type="Real64" Value="10.1418240440115"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Thunder2.wav</AudioFile>
 											<MediaIDList>
@@ -2836,6 +4006,14 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Thunder3L" ID="{FC62D07F-7FE6-4068-821B-D9542C525F19}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.177723063973064"/>
+												<Property Name="FadeInShape" Type="int16" Value="9"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.24058005651755"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0634725228475228"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Thunder3L.wav</AudioFile>
 											<MediaIDList>
@@ -2859,6 +4037,14 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Thunder4" ID="{3383FC52-CAD3-40F4-AB91-445172193810}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.19788924963925"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="3.80936805555556"/>
+												<Property Name="FadeOutShape" Type="int16" Value="1"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.25329858104858"/>
+												<Property Name="TrimEnd" Type="Real64" Value="9.8284993987494"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Thunder4.wav</AudioFile>
 											<MediaIDList>
@@ -2872,6 +4058,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Thunder5" ID="{B1F20769-DC6E-46D1-913E-28C0E5231274}" ShortID="351085736">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
@@ -2895,6 +4088,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Thunder6" ID="{57093234-A5B1-4ABD-93FE-1FF65C534F02}" ShortID="382481116">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
@@ -2905,10 +4105,18 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Thunder6" ID="{FD20A938-A31C-4E9E-B082-6268259CD729}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.443685966810967"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.69169486531987"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.414106902356902"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.07849774531025"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Thunder6.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="913999447"/>
+												<MediaID ID="607072833"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -2928,6 +4136,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Thunder7" ID="{BB978CEE-B0FA-447C-97CC-71B1552CB998}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="6.18331454425204"/>
+												<Property Name="FadeOutShape" Type="int16" Value="6"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="10.521147516835"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Thunder7.wav</AudioFile>
 											<MediaIDList>
@@ -2941,6 +4155,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Thunder8" ID="{DE21FFE7-6E2E-411F-AC7C-CCC38B66E1D1}" ShortID="31759018">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
@@ -2951,6 +4172,14 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Thunder8" ID="{4CB1D4CD-3DD9-4CCF-90CA-32209BF1C2E1}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.438672438672439"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="3.76334776334776"/>
+												<Property Name="FadeOutShape" Type="int16" Value="6"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.496392496392496"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.85714285714286"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Thunder8.wav</AudioFile>
 											<MediaIDList>
@@ -2974,6 +4203,14 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Thunder8L" ID="{0ACBDFA6-C94D-4BCF-B5FB-82CF78DE9270}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.554112554112554"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="4.94083694083694"/>
+												<Property Name="FadeOutShape" Type="int16" Value="6"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.784992784992785"/>
+												<Property Name="TrimEnd" Type="Real64" Value="14.1067821067821"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Thunder8L.wav</AudioFile>
 											<MediaIDList>
@@ -2987,6 +4224,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Thunder9L" ID="{FBCA763B-4824-4569-A212-91138F78CF15}" ShortID="94297525">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
@@ -2997,6 +4241,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Thunder9L" ID="{050AA9D3-8FF2-44BE-A6DD-F8CB0CED42E1}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.228306998556999"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="5.87890521284271"/>
+												<Property Name="FadeOutShape" Type="int16" Value="6"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="11.434375511063"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Thunder9L.wav</AudioFile>
 											<MediaIDList>
@@ -3007,6 +4258,337 @@
 									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Thunder9L" ID="{050AA9D3-8FF2-44BE-A6DD-F8CB0CED42E1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Thunder6_01" ID="{80A8A3FB-9D1A-42DC-AEC0-123C4495D067}" ShortID="825549474">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Thunder6" ID="{2A1CDF81-918F-4817-8D54-AB82234C11CC}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.443685966810967"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.08532404401154"/>
+												<Property Name="FadeOutShape" Type="int16" Value="1"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="5.90102335858586"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Thunder6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="913999447"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{C15C168A-F8F7-4597-86FE-B15DBD906AF8}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="5.55111512312578E-17"/>
+											</PropertyList>
+										</Panner>
+										<Position Name="" ID="{F674CEF6-5003-4A2A-BA53-3DA93AB5FBB1}">
+											<PropertyList>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="Thunder_Path" ID="{DC5B2F07-2659-4186-8103-4FE4C3501A7A}">
+													<PointList>
+														<Point>
+															<XPos>-77.66497</XPos>
+															<YPos>44.35028</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-31.9797</XPos>
+															<YPos>70.0565</YPos>
+															<Flags>0</Flags>
+															<Time>2500</Time>
+														</Point>
+														<Point>
+															<XPos>5.07614</XPos>
+															<YPos>66.66667</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Thunder_Path_01" ID="{0B51B44D-6B90-4B22-BD47-E15639217662}">
+													<PointList>
+														<Point>
+															<XPos>29.44162</XPos>
+															<YPos>74.29379</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>66.49746</XPos>
+															<YPos>41.24294</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Thunder_Path_02" ID="{8450F523-4C9F-4AAC-8CA3-0E1834F84757}">
+													<PointList>
+														<Point>
+															<XPos>-94.92385</XPos>
+															<YPos>-27.40113</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-88.32488</XPos>
+															<YPos>25.9887</YPos>
+															<Flags>0</Flags>
+															<Time>2500</Time>
+														</Point>
+														<Point>
+															<XPos>-58.37564</XPos>
+															<YPos>50.28249</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Thunder_Path_03" ID="{1E8DDFAB-7F34-4656-A6CA-0316447CA658}">
+													<PointList>
+														<Point>
+															<XPos>52.28426</XPos>
+															<YPos>56.21469</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>71.0659898477157</XPos>
+															<YPos>19.2090395480226</YPos>
+															<Flags>0</Flags>
+															<Time>1666</Time>
+														</Point>
+														<Point>
+															<XPos>68.5279187817259</XPos>
+															<YPos>-33.8983050847458</YPos>
+															<Flags>0</Flags>
+															<Time>3333</Time>
+														</Point>
+														<Point>
+															<XPos>59.39086</XPos>
+															<YPos>-50.28249</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Thunder_Path_04" ID="{D418EBBA-24D4-43EE-9748-0E30D70FA185}">
+													<PointList>
+														<Point>
+															<XPos>-10.6599</XPos>
+															<YPos>-70.33898</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-59.89848</XPos>
+															<YPos>-41.80791</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Thunder_Path_05" ID="{DF330324-20CA-4FA3-88C8-03443D3906DD}">
+													<PointList>
+														<Point>
+															<XPos>7.1066</XPos>
+															<YPos>-67.51412</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>57.3604060913705</XPos>
+															<YPos>-42.3728813559322</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Thunder_Path_06" ID="{5B9D1841-79DF-408C-990B-1ED78914B6D9}">
+													<PointList>
+														<Point>
+															<XPos>45.17766</XPos>
+															<YPos>53.38983</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>68.5279187817259</XPos>
+															<YPos>21.4689265536723</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Thunder_Path_07" ID="{8DC13E05-7609-47CA-BA29-784DD2AAD1B4}">
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>50</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>24.36548</XPos>
+															<YPos>6.21469</YPos>
+															<Flags>0</Flags>
+															<Time>2500</Time>
+														</Point>
+														<Point>
+															<XPos>6.59898477157361</XPos>
+															<YPos>-24.8587570621469</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Thunder_Path_08" ID="{6A2B6F69-3354-4238-A497-D0117927767B}">
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>50</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-31.4720812182741</XPos>
+															<YPos>48.5875706214689</YPos>
+															<Flags>0</Flags>
+															<Time>2500</Time>
+														</Point>
+														<Point>
+															<XPos>-53.80711</XPos>
+															<YPos>15.81921</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Thunder_Path_09" ID="{8D266381-A17A-491F-81DD-D87D1B310060}">
+													<PointList>
+														<Point>
+															<XPos>2.03046</XPos>
+															<YPos>-31.9209</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-22.84264</XPos>
+															<YPos>36.15819</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Thunder_Path_10" ID="{C80E3A6E-40C2-4BB8-8A45-FAD10BD585B7}">
+													<PointList>
+														<Point>
+															<XPos>17.7665</XPos>
+															<YPos>-83.33333</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-24.3654822335025</XPos>
+															<YPos>-18.6440677966102</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Thunder_Path_11" ID="{F9261218-5083-479E-9087-033B8ACADAF9}">
+													<PointList>
+														<Point>
+															<XPos>73.09645</XPos>
+															<YPos>-18.92655</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>37.0558375634518</XPos>
+															<YPos>14.1242937853107</YPos>
+															<Flags>0</Flags>
+															<Time>2500</Time>
+														</Point>
+														<Point>
+															<XPos>-17.25888</XPos>
+															<YPos>-50.84746</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Thunder_Path_12" ID="{60603D67-F15A-4864-94F2-22A95DF49A06}">
+													<PropertyList>
+														<Property Name="RandomX" Type="Real64" Value="23"/>
+														<Property Name="RandomY" Type="Real64" Value="15"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>-68.52792</XPos>
+															<YPos>15.53672</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-67.51269035533</XPos>
+															<YPos>51.4124293785311</YPos>
+															<Flags>0</Flags>
+															<Time>2500</Time>
+														</Point>
+														<Point>
+															<XPos>9.64467</XPos>
+															<YPos>79.66102</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Thunder_Path_13" ID="{8DE216EE-2E86-462C-840F-7A9C89FB2628}">
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>50</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Thunder_Path_14" ID="{C94AF4DD-8B85-4B98-8932-C123B6123D84}">
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>50</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Thunder6" ID="{2A1CDF81-918F-4817-8D54-AB82234C11CC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -3354,6 +4936,18 @@
 														<XPos>0</XPos>
 														<YPos>-200</YPos>
 														<Flags>5</Flags>
+														<SegmentShape>Exp3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0.52738</XPos>
+														<YPos>-5.41537</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0.999</XPos>
+														<YPos>-0.0086</YPos>
+														<Flags>0</Flags>
 														<SegmentShape>SCurve</SegmentShape>
 													</Point>
 													<Point>
@@ -3586,6 +5180,9 @@
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{8F2F737F-28D1-4516-9A3C-A9A7A2CC12B0}" ShortID="244486419">
 									<ReferenceList>
@@ -3602,11 +5199,17 @@
 												<XPos>0</XPos>
 												<YPos>-200</YPos>
 												<Flags>5</Flags>
-												<SegmentShape>SCurve</SegmentShape>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>0.50118</XPos>
+												<YPos>-5.08755</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log3</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>1</XPos>
-												<YPos>0.87479</YPos>
+												<YPos>-0.15418</YPos>
 												<Flags>37</Flags>
 											</Point>
 										</PointList>
