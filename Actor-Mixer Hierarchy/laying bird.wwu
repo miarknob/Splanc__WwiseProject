@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FD282816-52DF-4425-868C-4A4F0E207A5E}" SchemaVersion="103" RootDocumentID="{E2768A84-76EF-4B74-8C85-A03DB427041D}" ParentDocumentID="{4D176D05-55B7-4373-ABFC-DF4782C8CF80}">
+	<AudioObjects>
+		<WorkUnit Name="laying bird" ID="{FD282816-52DF-4425-868C-4A4F0E207A5E}" OwnerID="{FCC5B684-DE5F-44D8-A2C8-4BC51CF860A3}" PersistMode="Nested">
+			<ChildrenList>
+				<BlendContainer Name="bird_cry" ID="{C31F706A-4AB2-43DD-9665-EAF916E5223C}" ShortID="760993259">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="default attenuation" ID="{D421CA91-0138-49AD-B971-65741316DC17}" WorkUnitID="{6830CD02-B604-4D88-B005-F77F34232820}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="birdcry1" ID="{1DF8916D-B44C-4054-9DD3-7BD4729A4633}" ShortID="523195202">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="birdcry1" ID="{CB324CCD-0658-48EA-B53D-5D84B9F91FFC}">
+									<Language>SFX</Language>
+									<AudioFile>birdcry1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="32002433"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="birdcry1" ID="{CB324CCD-0658-48EA-B53D-5D84B9F91FFC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="birdcry flute 1" ID="{A651F7F1-D278-4582-AD0C-E38C907BA325}" ShortID="545615309">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="birdcry flute 1" ID="{43F3E143-8A59-4365-9C00-4375E82326EE}">
+									<Language>SFX</Language>
+									<AudioFile>birdcry flute 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="47246800"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="birdcry flute 1" ID="{43F3E143-8A59-4365-9C00-4375E82326EE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="birdcry kea 1" ID="{738F4B2A-4EE3-4A84-966F-E8CA771256D5}" ShortID="917114635">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="birdcry kea 1" ID="{FE1E0022-FDD7-42EF-B78C-83C59EC65198}">
+									<Language>SFX</Language>
+									<AudioFile>birdcry kea 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="280037081"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="birdcry kea 1" ID="{FE1E0022-FDD7-42EF-B78C-83C59EC65198}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</BlendContainer>
+				<RandomSequenceContainer Name="wings_flap" ID="{A0F738AF-B9A6-42A7-BB88-E9FB4C7D8494}" ShortID="687624849">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{821E6B3C-00FD-4BD5-BDEA-374671644AEA}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="76"/>
+											<Property Name="Min" Type="Real64" Value="-101"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{A7DD06A6-DF71-4866-95DC-A3CF3E7221B4}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-4"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{2A9E5C57-EB79-4676-A43C-CFE89FE16216}" ShortID="966794452">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="8000"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{181285D6-5092-49C9-A8F9-E4AC1340010A}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Exp3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>2420.77922</XPos>
+															<YPos>-3.94358</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Log3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>8000</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="wingflap1" ID="{FBB12DD5-599A-4702-B135-F9EFC52E4F26}" ShortID="16151074">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wingflap1" ID="{2FF59D89-C8DE-466B-B22B-67960C190344}">
+									<Language>SFX</Language>
+									<AudioFile>wingflap1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="800726207"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="wingflap1" ID="{2FF59D89-C8DE-466B-B22B-67960C190344}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="wingflap2" ID="{47097181-B707-411A-BEFC-1B51243429AC}" ShortID="792016443">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wingflap2" ID="{4A7D3565-FA01-4230-A94B-C3BFAB0A0255}">
+									<Language>SFX</Language>
+									<AudioFile>wingflap2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="27317084"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="wingflap2" ID="{4A7D3565-FA01-4230-A94B-C3BFAB0A0255}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="wingflap3" ID="{4051B1C9-807F-48D2-A888-EB322718D2A2}" ShortID="899270949">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wingflap3" ID="{0166EDA7-FB1A-49B9-B233-FDC2137CEACC}">
+									<Language>SFX</Language>
+									<AudioFile>wingflap3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="599980527"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="wingflap3" ID="{0166EDA7-FB1A-49B9-B233-FDC2137CEACC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="wingflap4" ID="{51DC6B59-BFDE-4DB5-B9FA-92E843F7F7AD}" ShortID="804471945">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wingflap4" ID="{B8DB311A-B483-4A92-9FB0-D58333090FF3}">
+									<Language>SFX</Language>
+									<AudioFile>wingflap4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="20745005"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="wingflap4" ID="{B8DB311A-B483-4A92-9FB0-D58333090FF3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="wingflap5" ID="{BF10A4EF-22D7-4AD9-A8E1-073277EA1ECD}" ShortID="562514129">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wingflap5" ID="{FA11F91E-FEF2-42C4-9B76-80C8363453EC}">
+									<Language>SFX</Language>
+									<AudioFile>wingflap5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="846591707"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="wingflap5" ID="{FA11F91E-FEF2-42C4-9B76-80C8363453EC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="wingflap6" ID="{80A8C3EF-64DF-4D31-9F94-9EE3FEEC145B}" ShortID="67722608">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wingflap6" ID="{DC5CD503-DFB4-47FE-AE96-B003EE5A3D61}">
+									<Language>SFX</Language>
+									<AudioFile>wingflap6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="508875442"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="wingflap6" ID="{DC5CD503-DFB4-47FE-AE96-B003EE5A3D61}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="wingflap7" ID="{D6FB4ADC-D80D-4CF5-A945-940E0926B7AE}" ShortID="671740924">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wingflap7" ID="{746D9F5B-9D3C-468D-ABD4-DCCD9E0ABD1A}">
+									<Language>SFX</Language>
+									<AudioFile>wingflap7.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="208078453"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="wingflap7" ID="{746D9F5B-9D3C-468D-ABD4-DCCD9E0ABD1A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="wingflap8" ID="{17B22067-46A2-4B98-89B2-8D630A1ACA4D}" ShortID="511594154">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wingflap8" ID="{CA66C452-4A44-4BEC-A38E-9C5ADA857B42}">
+									<Language>SFX</Language>
+									<AudioFile>wingflap8.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="277049502"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="wingflap8" ID="{CA66C452-4A44-4BEC-A38E-9C5ADA857B42}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="wingflap9" ID="{9298B31A-C265-49E2-8B02-7557F23C4AD1}" ShortID="360486443">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wingflap9" ID="{DCEEA6E3-6E40-4204-B4DB-84210B1E444E}">
+									<Language>SFX</Language>
+									<AudioFile>wingflap9.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="726146967"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="wingflap9" ID="{DCEEA6E3-6E40-4204-B4DB-84210B1E444E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="wingflap10" ID="{F3E52A72-65AE-433A-A275-E2C23EAFB30A}" ShortID="877137950">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wingflap10" ID="{AC085310-E994-4943-ABD3-A6EDA2BC2A97}">
+									<Language>SFX</Language>
+									<AudioFile>wingflap10.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1045397271"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="wingflap10" ID="{AC085310-E994-4943-ABD3-A6EDA2BC2A97}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

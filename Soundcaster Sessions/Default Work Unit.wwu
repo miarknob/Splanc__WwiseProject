@@ -42,27 +42,27 @@
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Flowe_atmo_2" ID="{7793A4EE-B9AC-42EC-AD69-AA1F7EF2F68C}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Wind" ID="{2DF7ED94-7DD7-48E0-9EAC-985259449B45}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Flower_hit" ID="{66E5209D-7695-44B0-A358-E3DFA696FE91}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
-							<Position X="3" Y="0"/>
+							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Flower_hit_2" ID="{93ED7FB9-4861-4F37-B298-6F396FC027D5}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
-							<Position X="3" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Flower_atmo" ID="{16931586-75A2-44C7-9BCC-389877A737AB}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
-							<Position X="4" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Flowe_atmo_2" ID="{7793A4EE-B9AC-42EC-AD69-AA1F7EF2F68C}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
-							<Position X="4" Y="1"/>
+							<Position X="2" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Flowe_atmo_3" ID="{07E8ADF6-9634-4959-AA89-15544877FBFF}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Flower_atmo" ID="{16931586-75A2-44C7-9BCC-389877A737AB}" WorkUnitID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}"/>
 							<Position X="4" Y="2"/>
 						</Module>
 					</ModuleList>
@@ -81,7 +81,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Thunder_atmo_level" ID="{C124AEA4-4559-43C8-9155-BA1856A88695}"/>
-							<Value>0.17</Value>
+							<Value>0.65</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
@@ -105,7 +105,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="WaterFlow_Intencity" ID="{DCB20E36-A951-48BE-A443-E765422B9D84}"/>
-							<Value>0</Value>
+							<Value>0.06</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
@@ -113,7 +113,11 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Rain_Intensity" ID="{6325C713-A498-4924-B750-58635B5FAA6F}"/>
-							<Value>0.28</Value>
+							<Value>0.33</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Side_Chain_1" ID="{E51E4A4D-B7D3-4942-8158-5169C5B46EF7}"/>
+							<Value>-9.42857142857143</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="New_Game_Parameter" ID="{843066C4-B39A-4964-8132-DBF7D1D89CDE}"/>
@@ -121,7 +125,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Wind_level" ID="{2806E714-8F73-49BA-8017-FAC8AAC48682}"/>
-							<Value>0.375476190476191</Value>
+							<Value>0.31</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="fly_speed" ID="{788FA92E-F1EB-4A01-8A67-A729A4C1787B}"/>
@@ -151,6 +155,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="no_up" ID="{AFCD3671-142B-43A7-8714-D4A5B8D9D5DF}"/>
 						<CurrentStateRef Name="OW" ID="{F00B0C89-19B9-45EB-9AD0-B537C192B8C3}"/>
+						<CurrentStateRef Name="no_wheat" ID="{0D87447E-5D62-4818-802D-F2C5966A3C77}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
@@ -192,7 +197,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="slide_turn" ID="{D1604CCC-10D7-406E-8BA4-077A8E48B236}"/>
-							<Value>-15.8502994011976</Value>
+							<Value>51.567</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
@@ -200,7 +205,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="fly_turn" ID="{8B79CEF9-CBC4-4342-9158-F0D9B185C3C7}"/>
-							<Value>-18.857</Value>
+							<Value>24.827</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Thunder_atmo_level" ID="{C124AEA4-4559-43C8-9155-BA1856A88695}"/>
@@ -240,7 +245,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Side_Chain_1" ID="{E51E4A4D-B7D3-4942-8158-5169C5B46EF7}"/>
-							<Value>-9.42857142857143</Value>
+							<Value>-48</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="New_Game_Parameter" ID="{843066C4-B39A-4964-8132-DBF7D1D89CDE}"/>
@@ -278,7 +283,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="no_up" ID="{AFCD3671-142B-43A7-8714-D4A5B8D9D5DF}"/>
 						<CurrentStateRef Name="OW" ID="{F00B0C89-19B9-45EB-9AD0-B537C192B8C3}"/>
-						<CurrentStateRef Name="no_wheat" ID="{0D87447E-5D62-4818-802D-F2C5966A3C77}"/>
+						<CurrentStateRef Name="on_wheat" ID="{2FF6F7FE-C5D4-49EF-B240-F207A913159C}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

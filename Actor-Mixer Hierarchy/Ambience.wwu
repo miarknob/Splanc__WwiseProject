@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F7D52782-D3A9-4B15-AF4B-11BEA5D8DCA1}" SchemaVersion="103" RootDocumentID="{E2768A84-76EF-4B74-8C85-A03DB427041D}" ParentDocumentID="{4D176D05-55B7-4373-ABFC-DF4782C8CF80}">
+	<AudioObjects>
+		<WorkUnit Name="Ambience" ID="{F7D52782-D3A9-4B15-AF4B-11BEA5D8DCA1}" OwnerID="{4D176D05-55B7-4373-ABFC-DF4782C8CF80}" PersistMode="Nested">
+			<ChildrenList>
+				<BlendContainer Name="Atmosphere 2lvl" ID="{05D0783D-3C94-4891-A8BD-954CAF86F8F6}" ShortID="312944987">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="ambience1" ID="{479F3CC1-060E-4A3B-BA42-F7B9454890D8}" ShortID="979932496">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ambience1" ID="{4C172398-D7D3-47F2-9F2F-448D66E88A49}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="3814.877"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.2666204238921"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.837949903660888"/>
+										<Property Name="LoopBegin" Type="Real64" Value="2.51384971098266"/>
+										<Property Name="LoopEnd" Type="Real64" Value="23.5006859344894"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ambience1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="423875840"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ambience1" ID="{4C172398-D7D3-47F2-9F2F-448D66E88A49}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ambience2" ID="{9FEC2C6C-2E81-4315-97D8-F0EBE63131F5}" ShortID="427458716">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ambience2" ID="{6EA93F81-AE1F-414C-90DD-287A69004975}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="5578.186"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.813653389932563"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.574343569364164"/>
+										<Property Name="LoopBegin" Type="Real64" Value="5.0733681960501"/>
+										<Property Name="LoopEnd" Type="Real64" Value="28.7650404323218"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ambience2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="945473323"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ambience2" ID="{6EA93F81-AE1F-414C-90DD-287A69004975}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</BlendContainer>
+				<Sound Name="River calm 2 lvl" ID="{4444ADF9-6D3D-46CB-BBDF-C986B50AD6B1}" ShortID="1069138318">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="61"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{34407D9D-1CFA-442A-886E-F135F122FB36}" ShortID="294302857">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="9000"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{2DDDC12D-E319-435A-B247-F139904A566B}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Exp3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>2968.83118</XPos>
+															<YPos>-3.53901</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Log3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>9000</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="River calm" ID="{A7ABF067-AA2B-4887-8D44-A2247D9310D6}">
+							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="4494.175"/>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.347048410404624"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.578414017341039"/>
+								<Property Name="LoopBegin" Type="Real64" Value="2.8535091522158"/>
+								<Property Name="LoopEnd" Type="Real64" Value="23.6764137764933"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>River calm.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="54722717"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{E9488FBA-6DD6-4CE9-AA11-FA8C0A908F7F}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="91.5540540540541"/>
+								<Property Name="PanY" Type="Real64" Value="21.7391304347826"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="River calm" ID="{A7ABF067-AA2B-4887-8D44-A2247D9310D6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="very distant waterwall 2 lvl" ID="{62C325E3-20F1-484F-BD31-368F1B1E931A}" ShortID="478794530">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>32</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="77"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{A4527652-50C3-443A-8515-206F44B67594}" ShortID="379975493">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="100000"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{12914771-3CC1-41AF-9F6C-FF340D06228E}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Exp2</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>31038.96104</XPos>
+															<YPos>-5.78843</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Log3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>100000</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9DDE0907-D40A-4659-9C6A-D196F82048F8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1EE1EFF7-1202-4087-85B4-526D7F539DBA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="very distant waterwall" ID="{2C55F18A-515F-41CF-A5D5-CE2FD64C6E63}">
+							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="2995.495"/>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.227758851156069"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.278371929190753"/>
+								<Property Name="LoopBegin" Type="Real64" Value="2.10044273843931"/>
+								<Property Name="LoopEnd" Type="Real64" Value="15.1839234104046"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>very distant waterwall.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="692916353"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{170701AE-61DF-44B1-BA74-169DCCB2BCC3}"/>
+					</PositioningInfo>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="very distant waterwall" ID="{2C55F18A-515F-41CF-A5D5-CE2FD64C6E63}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

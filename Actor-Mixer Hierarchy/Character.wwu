@@ -330,6 +330,13 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="pink_bush" ID="{9829D475-4BEF-43E4-9E7C-B72D3AE8DE62}" ShortID="1062777354">
 							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -342,6 +349,11 @@
 											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -673,6 +685,13 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="red_bush" ID="{F17876A9-A7C7-4D7D-B47B-D0B6D4EF3E4D}" ShortID="565956372">
 							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -685,6 +704,11 @@
 											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>

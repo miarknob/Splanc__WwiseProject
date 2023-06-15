@@ -52,7 +52,7 @@
 				</Attenuation>
 				<Attenuation Name="flower Attenuation" ID="{060A444C-A3A4-4EB3-B30F-18EB1E98143E}" ShortID="429877520">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="550"/>
+						<Property Name="RadiusMax" Type="Real64" Value="5500"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -66,10 +66,16 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
-											<SegmentShape>SCurve</SegmentShape>
+											<SegmentShape>Exp3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>550</XPos>
+											<XPos>2317.6547</XPos>
+											<YPos>-4.34647</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Log3</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>5500</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -96,22 +102,22 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>177.89948</XPos>
+											<XPos>1778.9948</XPos>
 											<YPos>27</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>245.94086</XPos>
+											<XPos>2459.4086</XPos>
 											<YPos>47</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>409.66486</XPos>
+											<XPos>4096.6486</XPos>
 											<YPos>53</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>550</XPos>
+											<XPos>5500</XPos>
 											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -362,6 +368,59 @@
 										</Point>
 										<Point>
 											<XPos>6000</XPos>
+											<YPos>-200</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
+						</VolumeDryUsage>
+						<VolumeWetGameUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetGameUsage>
+						<VolumeWetUserUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetUserUsage>
+						<LowPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</LowPassFilterUsage>
+						<HighPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</HighPassFilterUsage>
+						<SpreadUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</SpreadUsage>
+						<FocusUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</FocusUsage>
+					</CurveUsageInfoList>
+				</Attenuation>
+				<Attenuation Name="default attenuation" ID="{D421CA91-0138-49AD-B971-65741316DC17}" ShortID="506961143">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="9000"/>
+					</PropertyList>
+					<CurveUsageInfoList>
+						<VolumeDryUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="VolumeDry" ID="{A42CE0D1-7300-4E8C-8CF6-80C492799BED}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="3"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+											<SegmentShape>Exp3</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>2688.31184</XPos>
+											<YPos>-4.39766</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Log3</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>9000</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
