@@ -49,7 +49,7 @@
 													</Point>
 													<Point>
 														<XPos>-40.11329</XPos>
-														<YPos>-0</YPos>
+														<YPos>0</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>SCurve</SegmentShape>
 													</Point>
@@ -70,7 +70,7 @@
 					<StateInfo>
 						<StateGroupList>
 							<StateGroupInfo>
-								<StateGroupRef Name="Under_Over_water" ID="{340CDC31-3448-4BCF-AF7A-7543EB90D882}"/>
+								<StateGroupRef Name="Under_Over_Water" ID="{340CDC31-3448-4BCF-AF7A-7543EB90D882}"/>
 							</StateGroupInfo>
 						</StateGroupList>
 						<CustomStateList>

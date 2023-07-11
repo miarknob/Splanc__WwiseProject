@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{37E7D21B-553D-4C1D-AF17-6848FD8622C3}" SchemaVersion="103" RootDocumentID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}" ParentDocumentID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}">
+	<Events>
+		<WorkUnit Name="Test" ID="{37E7D21B-553D-4C1D-AF17-6848FD8622C3}" OwnerID="{4330F337-E0C1-4C7B-9FF7-E75080CBAD6D}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Flower_hit_2" ID="{93ED7FB9-4861-4F37-B298-6F396FC027D5}">
+					<ChildrenList>
+						<Action Name="" ID="{C2760A8B-32AF-4D4B-8828-1B897CE6998A}" ShortID="61119299">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flower hit 2" ID="{DF1F7AAB-3273-41AC-84C9-2924F857E7F5}" WorkUnitID="{78066B86-4C79-43AE-B4C2-D47B055D46C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fly_Wind_2" ID="{8341FF73-5FEA-499D-959E-5D2ABF626B52}">
+					<ChildrenList>
+						<Action Name="" ID="{355ECE59-42E8-450E-B390-38BFF37F7DAD}" ShortID="158408809">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fly Wind_2" ID="{BCA52A36-5939-45C4-BF69-C89AB8CDAC43}" WorkUnitID="{837BDDC6-E9BB-42D9-8CFB-BC15DFD89A36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Sail_PowerUp" ID="{E1E0BC27-961D-433A-8502-FB5EEDFC08A1}">
+					<ChildrenList>
+						<Action Name="" ID="{F946402C-152B-4B3F-806C-A605B26CC042}" ShortID="330744227">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Power UP hit sail" ID="{8DBDC9DF-C2A0-4B6B-8031-62A5A5597068}" WorkUnitID="{837BDDC6-E9BB-42D9-8CFB-BC15DFD89A36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8A348793-CB47-43BA-AD2D-16CA854F7A7D}" ShortID="132683173">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Delay" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UP" ID="{5714E988-FB1A-4672-80FF-C8D14752BDB9}" WorkUnitID="{88E53E9D-EE71-46C8-ADCD-7582D6AFCD00}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

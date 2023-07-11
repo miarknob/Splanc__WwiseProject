@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{837BDDC6-E9BB-42D9-8CFB-BC15DFD89A36}" SchemaVersion="103" RootDocumentID="{E2768A84-76EF-4B74-8C85-A03DB427041D}" ParentDocumentID="{E2768A84-76EF-4B74-8C85-A03DB427041D}">
+<WwiseDocument Type="WorkUnit" ID="{837BDDC6-E9BB-42D9-8CFB-BC15DFD89A36}" SchemaVersion="103" RootDocumentID="{E2768A84-76EF-4B74-8C85-A03DB427041D}" ParentDocumentID="{4D176D05-55B7-4373-ABFC-DF4782C8CF80}">
 	<AudioObjects>
-		<WorkUnit Name="FlySail" ID="{837BDDC6-E9BB-42D9-8CFB-BC15DFD89A36}" OwnerID="{E2768A84-76EF-4B74-8C85-A03DB427041D}" PersistMode="Nested">
+		<WorkUnit Name="FlySail" ID="{837BDDC6-E9BB-42D9-8CFB-BC15DFD89A36}" OwnerID="{4D176D05-55B7-4373-ABFC-DF4782C8CF80}" PersistMode="Nested">
 			<ChildrenList>
 				<BlendContainer Name="Fly Wind" ID="{CD255E98-0B63-49C5-AA68-865B0E6EBECE}" ShortID="206867163">
 					<PropertyList>
@@ -56,7 +56,7 @@
 										<PointList>
 											<Point>
 												<XPos>0</XPos>
-												<YPos>-200</YPos>
+												<YPos>-40</YPos>
 												<Flags>5</Flags>
 												<SegmentShape>SCurve</SegmentShape>
 											</Point>
@@ -2374,6 +2374,7 @@
 				</BlendContainer>
 				<BlendContainer Name="Fly power up" ID="{0893E8D7-C5E9-411B-AE29-3297C317466A}" ShortID="867760435">
 					<PropertyList>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="Lowpass" Type="int16">
 							<RTPCList>
 								<RTPC Name="" ID="{5BE1647B-578A-44CF-8126-C50F13654AF8}" ShortID="555492286">
@@ -2389,7 +2390,7 @@
 										<PointList>
 											<Point>
 												<XPos>0</XPos>
-												<YPos>50</YPos>
+												<YPos>33</YPos>
 												<Flags>5</Flags>
 												<SegmentShape>SCurve</SegmentShape>
 											</Point>
@@ -2409,6 +2410,17 @@
 								</RTPC>
 							</RTPCList>
 						</Property>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<RTPCList>
 								<RTPC Name="" ID="{79433ADF-815A-4D22-8D3D-035089AD7740}" ShortID="698244698">
@@ -2424,7 +2436,7 @@
 										<PointList>
 											<Point>
 												<XPos>0</XPos>
-												<YPos>-3.92161</YPos>
+												<YPos>-7.7972</YPos>
 												<Flags>5</Flags>
 												<SegmentShape>Log3</SegmentShape>
 											</Point>

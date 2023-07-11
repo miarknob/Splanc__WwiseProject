@@ -3,7 +3,7 @@
 	<States>
 		<WorkUnit Name="Default Work Unit" ID="{88E53E9D-EE71-46C8-ADCD-7582D6AFCD00}" PersistMode="Standalone">
 			<ChildrenList>
-				<StateGroup Name="Under_Over_water" ID="{340CDC31-3448-4BCF-AF7A-7543EB90D882}">
+				<StateGroup Name="Under_Over_Water" ID="{340CDC31-3448-4BCF-AF7A-7543EB90D882}">
 					<PropertyList>
 						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.3"/>
 					</PropertyList>
